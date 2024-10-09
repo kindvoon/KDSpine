@@ -13,7 +13,7 @@ Spine runtimes for iOS.
   s.author           = { "Esoteric Software LLC  " => "https://github.com/kindvoon/KDSpine.git" }
   s.license          = { :file => 'LICENSE' }
 
-  s.source           = { :git => 'https://github.com/kindvoon/KDSpine.git', :branch => '1.2' }
+  s.source           = { :git => 'https://github.com/kindvoon/KDSpine.git', :tag => s.version.to_s }
   #s.source_files     = 'Spine/spine-ios/Sources/Spine/**/*.{swift,metal}'
   s.platform         = :ios, '13.0'
 
