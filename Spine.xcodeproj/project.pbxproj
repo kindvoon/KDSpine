@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EAE27550315CD80C3A51630 /* Pods_Spine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40C4EE53BD705D405F56070 /* Pods_Spine.framework */; };
+		686761CC2C6EED6400EBFC30 /* MTLClearColor+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686761B92C6EED6400EBFC30 /* MTLClearColor+UIColor.swift */; };
+		686761CD2C6EED6400EBFC30 /* RenderCommand+Vertices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686761BA2C6EED6400EBFC30 /* RenderCommand+Vertices.swift */; };
+		686761CE2C6EED6400EBFC30 /* SkeletonDrawableWrapper+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686761BB2C6EED6400EBFC30 /* SkeletonDrawableWrapper+CGImage.swift */; };
+		686761CF2C6EED6400EBFC30 /* SpineObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686761BD2C6EED6400EBFC30 /* SpineObjects.swift */; };
+		686761D02C6EED6400EBFC30 /* SpineRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686761BE2C6EED6400EBFC30 /* SpineRenderer.swift */; };
+		686761D12C6EED6400EBFC30 /* SpineShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 686761BF2C6EED6400EBFC30 /* SpineShaders.metal */; };
+		686761D22C6EED6400EBFC30 /* AnimationStateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686761C12C6EED6400EBFC30 /* AnimationStateWrapper.swift */; };
+		686761D32C6EED6400EBFC30 /* BoundsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686761C22C6EED6400EBFC30 /* BoundsProvider.swift */; };
+		686761D42C6EED6400EBFC30 /* SkeletonDrawableWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686761C32C6EED6400EBFC30 /* SkeletonDrawableWrapper.swift */; };
+		686761D52C6EED6400EBFC30 /* Spine.Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686761C42C6EED6400EBFC30 /* Spine.Generated.swift */; };
+		686761D62C6EED6400EBFC30 /* Spine.Generated+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686761C52C6EED6400EBFC30 /* Spine.Generated+Extensions.swift */; };
+		686761D72C6EED6400EBFC30 /* SpineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686761C62C6EED6400EBFC30 /* SpineController.swift */; };
+		686761D82C6EED6400EBFC30 /* SpineUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686761C72C6EED6400EBFC30 /* SpineUIView.swift */; };
+		686761D92C6EED6400EBFC30 /* SpineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686761C82C6EED6400EBFC30 /* SpineView.swift */; };
+		686761DB2C6EEE2600EBFC30 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 686761DA2C6EEE2600EBFC30 /* Podfile */; };
+		68A776312C730D35009060BE /* Spine.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 68A776302C730D35009060BE /* Spine.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3ECFB66171441ECEDB572619 /* Pods-Spine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spine.debug.xcconfig"; path = "Target Support Files/Pods-Spine/Pods-Spine.debug.xcconfig"; sourceTree = "<group>"; };
+		686761AF2C6EE93C00EBFC30 /* Spine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Spine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		686761B92C6EED6400EBFC30 /* MTLClearColor+UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MTLClearColor+UIColor.swift"; sourceTree = "<group>"; };
+		686761BA2C6EED6400EBFC30 /* RenderCommand+Vertices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RenderCommand+Vertices.swift"; sourceTree = "<group>"; };
+		686761BB2C6EED6400EBFC30 /* SkeletonDrawableWrapper+CGImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SkeletonDrawableWrapper+CGImage.swift"; sourceTree = "<group>"; };
+		686761BD2C6EED6400EBFC30 /* SpineObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpineObjects.swift; sourceTree = "<group>"; };
+		686761BE2C6EED6400EBFC30 /* SpineRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpineRenderer.swift; sourceTree = "<group>"; };
+		686761BF2C6EED6400EBFC30 /* SpineShaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = SpineShaders.metal; sourceTree = "<group>"; };
+		686761C12C6EED6400EBFC30 /* AnimationStateWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationStateWrapper.swift; sourceTree = "<group>"; };
+		686761C22C6EED6400EBFC30 /* BoundsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoundsProvider.swift; sourceTree = "<group>"; };
+		686761C32C6EED6400EBFC30 /* SkeletonDrawableWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkeletonDrawableWrapper.swift; sourceTree = "<group>"; };
+		686761C42C6EED6400EBFC30 /* Spine.Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spine.Generated.swift; sourceTree = "<group>"; };
+		686761C52C6EED6400EBFC30 /* Spine.Generated+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Spine.Generated+Extensions.swift"; sourceTree = "<group>"; };
+		686761C62C6EED6400EBFC30 /* SpineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpineController.swift; sourceTree = "<group>"; };
+		686761C72C6EED6400EBFC30 /* SpineUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpineUIView.swift; sourceTree = "<group>"; };
+		686761C82C6EED6400EBFC30 /* SpineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpineView.swift; sourceTree = "<group>"; };
+		686761DA2C6EEE2600EBFC30 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		68A776302C730D35009060BE /* Spine.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Spine.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE6049CB4FE9695B0EC72077 /* Pods-Spine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spine.release.xcconfig"; path = "Target Support Files/Pods-Spine/Pods-Spine.release.xcconfig"; sourceTree = "<group>"; };
+		C40C4EE53BD705D405F56070 /* Pods_Spine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		686761AC2C6EE93C00EBFC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAE27550315CD80C3A51630 /* Pods_Spine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1923E426A83F4B0D2DC37025 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3ECFB66171441ECEDB572619 /* Pods-Spine.debug.xcconfig */,
+				AE6049CB4FE9695B0EC72077 /* Pods-Spine.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		686761A52C6EE93C00EBFC30 = {
+			isa = PBXGroup;
+			children = (
+				686761DA2C6EEE2600EBFC30 /* Podfile */,
+				68A776302C730D35009060BE /* Spine.podspec */,
+				686761B12C6EE93C00EBFC30 /* Spine */,
+				686761B02C6EE93C00EBFC30 /* Products */,
+				1923E426A83F4B0D2DC37025 /* Pods */,
+				9F23C74CD2298501D1709BC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		686761B02C6EE93C00EBFC30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				686761AF2C6EE93C00EBFC30 /* Spine.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		686761B12C6EE93C00EBFC30 /* Spine */ = {
+			isa = PBXGroup;
+			children = (
+				686761CB2C6EED6400EBFC30 /* spine-ios */,
+			);
+			path = Spine;
+			sourceTree = "<group>";
+		};
+		686761BC2C6EED6400EBFC30 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				686761B92C6EED6400EBFC30 /* MTLClearColor+UIColor.swift */,
+				686761BA2C6EED6400EBFC30 /* RenderCommand+Vertices.swift */,
+				686761BB2C6EED6400EBFC30 /* SkeletonDrawableWrapper+CGImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		686761C02C6EED6400EBFC30 /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				686761BD2C6EED6400EBFC30 /* SpineObjects.swift */,
+				686761BE2C6EED6400EBFC30 /* SpineRenderer.swift */,
+				686761BF2C6EED6400EBFC30 /* SpineShaders.metal */,
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
+		686761C92C6EED6400EBFC30 /* Spine */ = {
+			isa = PBXGroup;
+			children = (
+				686761BC2C6EED6400EBFC30 /* Extensions */,
+				686761C02C6EED6400EBFC30 /* Metal */,
+				686761C12C6EED6400EBFC30 /* AnimationStateWrapper.swift */,
+				686761C22C6EED6400EBFC30 /* BoundsProvider.swift */,
+				686761C32C6EED6400EBFC30 /* SkeletonDrawableWrapper.swift */,
+				686761C42C6EED6400EBFC30 /* Spine.Generated.swift */,
+				686761C52C6EED6400EBFC30 /* Spine.Generated+Extensions.swift */,
+				686761C62C6EED6400EBFC30 /* SpineController.swift */,
+				686761C72C6EED6400EBFC30 /* SpineUIView.swift */,
+				686761C82C6EED6400EBFC30 /* SpineView.swift */,
+			);
+			path = Spine;
+			sourceTree = "<group>";
+		};
+		686761CA2C6EED6400EBFC30 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				686761C92C6EED6400EBFC30 /* Spine */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		686761CB2C6EED6400EBFC30 /* spine-ios */ = {
+			isa = PBXGroup;
+			children = (
+				686761CA2C6EED6400EBFC30 /* Sources */,
+			);
+			path = "spine-ios";
+			sourceTree = "<group>";
+		};
+		9F23C74CD2298501D1709BC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C40C4EE53BD705D405F56070 /* Pods_Spine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		686761AA2C6EE93C00EBFC30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		686761AE2C6EE93C00EBFC30 /* Spine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 686761B62C6EE93C00EBFC30 /* Build configuration list for PBXNativeTarget "Spine" */;
+			buildPhases = (
+				7ABE171954DD35FB621D4945 /* [CP] Check Pods Manifest.lock */,
+				686761AA2C6EE93C00EBFC30 /* Headers */,
+				686761AB2C6EE93C00EBFC30 /* Sources */,
+				686761AC2C6EE93C00EBFC30 /* Frameworks */,
+				686761AD2C6EE93C00EBFC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spine;
+			productName = Spine;
+			productReference = 686761AF2C6EE93C00EBFC30 /* Spine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		686761A62C6EE93C00EBFC30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					686761AE2C6EE93C00EBFC30 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 686761A92C6EE93C00EBFC30 /* Build configuration list for PBXProject "Spine" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 686761A52C6EE93C00EBFC30;
+			productRefGroup = 686761B02C6EE93C00EBFC30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				686761AE2C6EE93C00EBFC30 /* Spine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		686761AD2C6EE93C00EBFC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A776312C730D35009060BE /* Spine.podspec in Resources */,
+				686761DB2C6EEE2600EBFC30 /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7ABE171954DD35FB621D4945 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		686761AB2C6EE93C00EBFC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686761D92C6EED6400EBFC30 /* SpineView.swift in Sources */,
+				686761D62C6EED6400EBFC30 /* Spine.Generated+Extensions.swift in Sources */,
+				686761CD2C6EED6400EBFC30 /* RenderCommand+Vertices.swift in Sources */,
+				686761D42C6EED6400EBFC30 /* SkeletonDrawableWrapper.swift in Sources */,
+				686761D82C6EED6400EBFC30 /* SpineUIView.swift in Sources */,
+				686761D72C6EED6400EBFC30 /* SpineController.swift in Sources */,
+				686761CC2C6EED6400EBFC30 /* MTLClearColor+UIColor.swift in Sources */,
+				686761D22C6EED6400EBFC30 /* AnimationStateWrapper.swift in Sources */,
+				686761CF2C6EED6400EBFC30 /* SpineObjects.swift in Sources */,
+				686761D02C6EED6400EBFC30 /* SpineRenderer.swift in Sources */,
+				686761D52C6EED6400EBFC30 /* Spine.Generated.swift in Sources */,
+				686761D32C6EED6400EBFC30 /* BoundsProvider.swift in Sources */,
+				686761D12C6EED6400EBFC30 /* SpineShaders.metal in Sources */,
+				686761CE2C6EED6400EBFC30 /* SkeletonDrawableWrapper+CGImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		686761B42C6EE93C00EBFC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		686761B52C6EE93C00EBFC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		686761B72C6EE93C00EBFC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ECFB66171441ECEDB572619 /* Pods-Spine.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../SpineCppLite/SpineCppLite.framework\"";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spine.Spine;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		686761B82C6EE93C00EBFC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6049CB4FE9695B0EC72077 /* Pods-Spine.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../SpineCppLite/SpineCppLite.framework\"";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spine.Spine;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		686761A92C6EE93C00EBFC30 /* Build configuration list for PBXProject "Spine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				686761B42C6EE93C00EBFC30 /* Debug */,
+				686761B52C6EE93C00EBFC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		686761B62C6EE93C00EBFC30 /* Build configuration list for PBXNativeTarget "Spine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				686761B72C6EE93C00EBFC30 /* Debug */,
+				686761B82C6EE93C00EBFC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 686761A62C6EE93C00EBFC30 /* Project object */;
+}

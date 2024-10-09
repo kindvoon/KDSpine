@@ -1,0 +1,27 @@
+{
+  "name": "SpineShadersStructs",
+  "version": "4.2.0",
+  "summary": "Metal shaders structs for spine",
+  "description": "Metal shaders structs for spine.",
+  "homepage": "https://esotericsoftware.com",
+  "authors": {
+    "Esoteric Software LLC  ": "https://esotericsoftware.com"
+  },
+  "license": {
+    "file": "LICENSE"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/esotericsoftware/spine-runtimes.git",
+    "branch": "4.2"
+  },
+  "frameworks": "SpineShadersStructs",
+  "ios": {
+    "vendored_frameworks": "SpineShadersStructs.xcframework"
+  },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
+  }
+}

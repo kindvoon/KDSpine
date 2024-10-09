@@ -1,0 +1,1791 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name Spine
+import Combine
+import CoreGraphics
+import Foundation
+import MetalKit
+import QuartzCore
+import SpineCppLite
+import SpineShadersStructs
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct SpineView : SwiftUI.UIViewRepresentable {
+  public typealias UIViewType = Spine.SpineUIView
+  public init(from source: Spine.SpineViewSource, controller: Spine.SpineController = SpineController(), mode: Spine.ContentMode = .fit, alignment: Spine.Alignment = .center, boundsProvider: any Spine.BoundsProvider = SetupPoseBounds(), backgroundColor: UIKit.UIColor = .clear, isRendering: SwiftUI.Binding<Swift.Bool?> = .constant(nil))
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: Spine.SpineView.Context) -> Spine.SpineUIView
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: Spine.SpineUIView, context: Spine.SpineView.Context)
+  public typealias Body = Swift.Never
+  public typealias Coordinator = Swift.Void
+}
+public var version: Swift.String {
+  get
+}
+public var majorVersion: Swift.Int {
+  get
+}
+public var minorVersion: Swift.Int {
+  get
+}
+extension Spine.Atlas {
+  #if compiler(>=5.3) && $AsyncAwait
+  @objc public static func fromBundle(_ atlasFileName: Swift.String, bundle: Foundation.Bundle = .main) async throws -> (Spine.Atlas, [UIKit.UIImage])
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @objc public static func fromFile(_ atlasFile: Foundation.URL) async throws -> (Spine.Atlas, [UIKit.UIImage])
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @objc public static func fromHttp(_ atlasURL: Foundation.URL) async throws -> (Spine.Atlas, [UIKit.UIImage])
+  #endif
+}
+extension Spine.SkeletonData {
+  #if compiler(>=5.3) && $AsyncAwait
+  @objc public static func fromBundle(atlas: Spine.Atlas, skeletonFileName: Swift.String, bundle: Foundation.Bundle = .main) async throws -> Spine.SkeletonData
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @objc public static func fromFile(atlas: Spine.Atlas, skeletonFile: Foundation.URL) async throws -> Spine.SkeletonData
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @objc public static func fromHttp(atlas: Spine.Atlas, skeletonURL: Foundation.URL) async throws -> Spine.SkeletonData
+  #endif
+  @objc public static func fromData(atlas: Spine.Atlas, data: Foundation.Data) throws -> Spine.SkeletonData
+  @objc public static func fromJson(atlas: Spine.Atlas, json: Swift.String) throws -> Spine.SkeletonData
+}
+extension Spine.Skin {
+  @objc public static func create(name: Swift.String) -> Spine.Skin
+}
+extension CoreFoundation.CGRect {
+  public init(bounds: Spine.Bounds)
+}
+extension Swift.String : Swift.Error {
+}
+@objc(SpineSkeletonDrawableWrapper) @objcMembers final public class SkeletonDrawableWrapper : ObjectiveC.NSObject {
+  @objc final public let atlas: Spine.Atlas
+  @objc final public let atlasPages: [UIKit.UIImage]
+  @objc final public let skeletonData: Spine.SkeletonData
+  @objc final public let skeletonDrawable: Spine.SkeletonDrawable
+  @objc final public let skeleton: Spine.Skeleton
+  @objc final public let animationStateData: Spine.AnimationStateData
+  @objc final public let animationState: Spine.AnimationState
+  @objc final public let animationStateWrapper: Spine.AnimationStateWrapper
+  #if compiler(>=5.3) && $AsyncAwait
+  @objc public static func fromBundle(atlasFileName: Swift.String, skeletonFileName: Swift.String, bundle: Foundation.Bundle = .main) async throws -> Spine.SkeletonDrawableWrapper
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @objc public static func fromFile(atlasFile: Foundation.URL, skeletonFile: Foundation.URL) async throws -> Spine.SkeletonDrawableWrapper
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @objc public static func fromHttp(atlasURL: Foundation.URL, skeletonURL: Foundation.URL) async throws -> Spine.SkeletonDrawableWrapper
+  #endif
+  @objc public init(atlas: Spine.Atlas, atlasPages: [UIKit.UIImage], skeletonData: Spine.SkeletonData) throws
+  @objc final public func update(delta: Swift.Float)
+  @objc final public func dispose()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) final public class SpineUIView : MetalKit.MTKView {
+  @_Concurrency.MainActor(unsafe) convenience public init(from source: Spine.SpineViewSource, controller: Spine.SpineController = SpineController(), mode: Spine.ContentMode = .fit, alignment: Spine.Alignment = .center, boundsProvider: any Spine.BoundsProvider = SetupPoseBounds(), backgroundColor: UIKit.UIColor = .clear)
+  @objc @_Concurrency.MainActor(unsafe) convenience public init(atlasFileName: Swift.String, skeletonFileName: Swift.String, bundle: Foundation.Bundle = .main, controller: Spine.SpineController = SpineController(), mode: Spine.ContentMode = .fit, alignment: Spine.Alignment = .center, boundsProvider: any Spine.BoundsProvider = SetupPoseBounds(), backgroundColor: UIKit.UIColor = .clear)
+  @objc @_Concurrency.MainActor(unsafe) convenience public init(atlasFile: Foundation.URL, skeletonFile: Foundation.URL, controller: Spine.SpineController = SpineController(), mode: Spine.ContentMode = .fit, alignment: Spine.Alignment = .center, boundsProvider: any Spine.BoundsProvider = SetupPoseBounds(), backgroundColor: UIKit.UIColor = .clear)
+  @objc @_Concurrency.MainActor(unsafe) convenience public init(atlasURL: Foundation.URL, skeletonURL: Foundation.URL, controller: Spine.SpineController = SpineController(), mode: Spine.ContentMode = .fit, alignment: Spine.Alignment = .center, boundsProvider: any Spine.BoundsProvider = SetupPoseBounds(), backgroundColor: UIKit.UIColor = .clear)
+  @objc @_Concurrency.MainActor(unsafe) convenience public init(drawable: Spine.SkeletonDrawableWrapper, controller: Spine.SpineController = SpineController(), mode: Spine.ContentMode = .fit, alignment: Spine.Alignment = .center, boundsProvider: any Spine.BoundsProvider = SetupPoseBounds(), backgroundColor: UIKit.UIColor = .clear)
+  @_Concurrency.MainActor(unsafe) final public var isRendering: Swift.Bool {
+    get
+    set
+  }
+  @objc deinit
+}
+public enum SpineViewSource {
+  case bundle(atlasFileName: Swift.String, skeletonFileName: Swift.String, bundle: Foundation.Bundle = .main)
+  case file(atlasFile: Foundation.URL, skeletonFile: Foundation.URL)
+  case http(atlasURL: Foundation.URL, skeletonURL: Foundation.URL)
+  case drawable(Spine.SkeletonDrawableWrapper)
+}
+public typealias SpineControllerCallback = (_ controller: Spine.SpineController) -> Swift.Void
+@objc @objcMembers final public class SpineController : ObjectiveC.NSObject, Foundation.ObservableObject {
+  @objc final public var drawable: Spine.SkeletonDrawableWrapper! {
+    get
+  }
+  @objc @Combine.Published @_projectedValueProperty($isPlaying) final public var isPlaying: Swift.Bool {
+    @objc get
+  }
+  final public var $isPlaying: Combine.Published<Swift.Bool>.Publisher {
+    get
+  }
+  @objc @Combine.Published @_projectedValueProperty($viewSize) final public var viewSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  final public var $viewSize: Combine.Published<CoreFoundation.CGSize>.Publisher {
+    get
+  }
+  @objc public init(onInitialized: Spine.SpineControllerCallback? = nil, onBeforeUpdateWorldTransforms: Spine.SpineControllerCallback? = nil, onAfterUpdateWorldTransforms: Spine.SpineControllerCallback? = nil, onBeforePaint: Spine.SpineControllerCallback? = nil, onAfterPaint: Spine.SpineControllerCallback? = nil, disposeDrawableOnDeInit: Swift.Bool = true)
+  @objc deinit
+  @objc final public var atlas: Spine.Atlas {
+    @objc get
+  }
+  @objc final public var skeletonData: Spine.SkeletonData {
+    @objc get
+  }
+  @objc final public var skeleton: Spine.Skeleton {
+    @objc get
+  }
+  @objc final public var animationStateData: Spine.AnimationStateData {
+    @objc get
+  }
+  @objc final public var animationState: Spine.AnimationState {
+    @objc get
+  }
+  @objc final public var animationStateWrapper: Spine.AnimationStateWrapper {
+    @objc get
+  }
+  @objc final public func toSkeletonCoordinates(position: CoreFoundation.CGPoint) -> CoreFoundation.CGPoint
+  @objc final public func fromSkeletonCoordinates(position: CoreFoundation.CGPoint) -> CoreFoundation.CGPoint
+  @objc final public func pause()
+  @objc final public func resume()
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+}
+public typealias AnimationStateListener = (_ type: Spine.EventType, _ entry: Spine.TrackEntry, _ event: Spine.Event?) -> Swift.Void
+@objc(SpineAnimationStateWrapper) @objcMembers final public class AnimationStateWrapper : ObjectiveC.NSObject {
+  @objc final public let animationState: Spine.AnimationState
+  @objc final public let aninationStateEvents: Spine.AnimationStateEvents
+  @objc public init(animationState: Spine.AnimationState, aninationStateEvents: Spine.AnimationStateEvents)
+  @objc final public func setTrackEntryListener(entry: Spine.TrackEntry, listener: Spine.AnimationStateListener?)
+  @objc final public func update(delta: Swift.Float)
+  @objc final public func setStateListener(_ stateListener: Spine.AnimationStateListener?)
+  @objc deinit
+}
+public typealias BlendMode = SpineCppLite.spine_blend_mode
+public typealias MixBlend = SpineCppLite.spine_mix_blend
+public typealias EventType = SpineCppLite.spine_event_type
+public typealias AttachmentType = SpineCppLite.spine_attachment_type
+public typealias ConstraintType = SpineCppLite.spine_constraint_type
+public typealias Inherit = SpineCppLite.spine_inherit
+public typealias PositionMode = SpineCppLite.spine_position_mode
+public typealias SpacingMode = SpineCppLite.spine_spacing_mode
+public typealias RotateMode = SpineCppLite.spine_rotate_mode
+public typealias Physics = SpineCppLite.spine_physics
+@_hasMissingDesignatedInitializers @objc(SpineTransformConstraintData) @objcMembers final public class TransformConstraintData : ObjectiveC.NSObject {
+  @objc final public var bones: [Spine.BoneData] {
+    @objc get
+  }
+  @objc final public var target: Spine.BoneData {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixRotate: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixScaleX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixScaleY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixShearY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var offsetRotation: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var offsetX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var offsetY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var offsetScaleX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var offsetScaleY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var offsetShearY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var isRelative: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var isLocal: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineBoundingBoxAttachment) @objcMembers final public class BoundingBoxAttachment : ObjectiveC.NSObject {
+  @objc final public var color: Spine.Color {
+    @objc get
+  }
+  @objc final public func setColor(r: Swift.Float, g: Swift.Float, b: Swift.Float, a: Swift.Float)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpinePhysicsConstraintData) @objcMembers final public class PhysicsConstraintData : ObjectiveC.NSObject {
+  @objc final public var bone: Spine.BoneData {
+    @objc get
+    @objc set
+  }
+  @objc final public var x: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var y: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var rotate: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var scaleX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var shearX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var limit: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var step: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var inertia: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var strength: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var damping: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var massInverse: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var wind: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var gravity: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mix: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var isInertiaGlobal: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var isStrengthGlobal: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var isDampingGlobal: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var isMassGlobal: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var isWindGlobal: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var isGravityGlobal: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var isMixGlobal: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineAnimationStateEvents) @objcMembers final public class AnimationStateEvents : ObjectiveC.NSObject {
+  @objc @discardableResult
+  final public func getEventType(index: Swift.Int32) -> Spine.EventType
+  @objc @discardableResult
+  final public func getTrackEntry(index: Swift.Int32) -> Spine.TrackEntry
+  @objc @discardableResult
+  final public func getEvent(index: Swift.Int32) -> Spine.Event?
+  @objc final public func reset()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineTransformConstraint) @objcMembers final public class TransformConstraint : ObjectiveC.NSObject {
+  @objc final public var order: Swift.Int32 {
+    @objc get
+  }
+  @objc final public var data: Spine.TransformConstraintData {
+    @objc get
+  }
+  @objc final public var bones: [Spine.Bone] {
+    @objc get
+  }
+  @objc final public var target: Spine.Bone {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixRotate: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixScaleX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixScaleY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixShearY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var isActive: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public func update()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpinePathConstraintData) @objcMembers final public class PathConstraintData : ObjectiveC.NSObject {
+  @objc final public var bones: [Spine.BoneData] {
+    @objc get
+  }
+  @objc final public var target: Spine.SlotData {
+    @objc get
+    @objc set
+  }
+  @objc final public var positionMode: Spine.PositionMode {
+    @objc get
+    @objc set
+  }
+  @objc final public var spacingMode: Spine.SpacingMode {
+    @objc get
+    @objc set
+  }
+  @objc final public var rotateMode: Spine.RotateMode {
+    @objc get
+    @objc set
+  }
+  @objc final public var offsetRotation: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var position: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var spacing: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixRotate: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineAnimationStateData) @objcMembers final public class AnimationStateData : ObjectiveC.NSObject {
+  @objc final public var skeletonData: Spine.SkeletonData {
+    @objc get
+  }
+  @objc final public var defaultMix: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public func setMix(from: Spine.Animation, to: Spine.Animation, duration: Swift.Float)
+  @objc @discardableResult
+  final public func getMix(from: Spine.Animation, to: Spine.Animation) -> Swift.Float
+  @objc final public func setMixByName(fromName: Swift.String?, toName: Swift.String?, duration: Swift.Float)
+  @objc @discardableResult
+  final public func getMixByName(fromName: Swift.String?, toName: Swift.String?) -> Swift.Float
+  @objc final public func clear()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineSkeletonDataResult) @objcMembers final public class SkeletonDataResult : ObjectiveC.NSObject {
+  @objc final public var error: Swift.String? {
+    @objc get
+  }
+  @objc final public var data: Spine.SkeletonData {
+    @objc get
+  }
+  @objc final public func dispose()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineClippingAttachment) @objcMembers final public class ClippingAttachment : ObjectiveC.NSObject {
+  @objc final public var color: Spine.Color {
+    @objc get
+  }
+  @objc final public var endSlot: Spine.SlotData? {
+    @objc get
+    @objc set
+  }
+  @objc final public func setColor(r: Swift.Float, g: Swift.Float, b: Swift.Float, a: Swift.Float)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineIkConstraintData) @objcMembers final public class IkConstraintData : ObjectiveC.NSObject {
+  @objc final public var bones: [Spine.BoneData] {
+    @objc get
+  }
+  @objc final public var target: Spine.BoneData {
+    @objc get
+    @objc set
+  }
+  @objc final public var bendDirection: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc final public var compress: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var stretch: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var uniform: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var mix: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var softness: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpinePhysicsConstraint) @objcMembers final public class PhysicsConstraint : ObjectiveC.NSObject {
+  @objc final public var bone: Spine.Bone {
+    @objc get
+    @objc set
+  }
+  @objc final public var inertia: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var strength: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var damping: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var massInverse: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var wind: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var gravity: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mix: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var reset: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var ux: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var uy: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var cx: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var cy: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var tx: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var ty: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var xOffset: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var xVelocity: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var yOffset: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var yVelocity: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var rotateOffset: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var rotateVelocity: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var scaleOffset: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var scaleVelocity: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var isActive: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var remaining: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var lastTime: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public func resetFully()
+  @objc final public func update(physics: Spine.Physics)
+  @objc final public func translate(x: Swift.Float, y: Swift.Float)
+  @objc final public func rotate(x: Swift.Float, y: Swift.Float, degrees: Swift.Float)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineRegionAttachment) @objcMembers final public class RegionAttachment : ObjectiveC.NSObject {
+  @objc final public var color: Spine.Color {
+    @objc get
+  }
+  @objc final public var path: Swift.String? {
+    @objc get
+  }
+  @objc final public var region: Spine.TextureRegion? {
+    @objc get
+  }
+  @objc final public var sequence: Spine.Sequence? {
+    @objc get
+  }
+  final public var offset: [Swift.Float?] {
+    get
+  }
+  final public var uvs: [Swift.Float?] {
+    get
+  }
+  @objc final public var x: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var y: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var rotation: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var scaleX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var scaleY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var width: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var height: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public func updateRegion()
+  @objc final public func setColor(r: Swift.Float, g: Swift.Float, b: Swift.Float, a: Swift.Float)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineVertexAttachment) @objcMembers final public class VertexAttachment : ObjectiveC.NSObject {
+  @objc final public var worldVerticesLength: Swift.Int32 {
+    @objc get
+  }
+  final public var bones: [Swift.Int32?] {
+    get
+  }
+  final public var vertices: [Swift.Float?] {
+    get
+  }
+  @objc final public var timelineAttachment: Spine.Attachment? {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineSkeletonDrawable) @objcMembers final public class SkeletonDrawable : ObjectiveC.NSObject {
+  @objc final public var skeleton: Spine.Skeleton {
+    @objc get
+  }
+  @objc final public var animationState: Spine.AnimationState {
+    @objc get
+  }
+  @objc final public var animationStateData: Spine.AnimationStateData {
+    @objc get
+  }
+  @objc final public var animationStateEvents: Spine.AnimationStateEvents {
+    @objc get
+  }
+  @objc final public func dispose()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpinePointAttachment) @objcMembers final public class PointAttachment : ObjectiveC.NSObject {
+  @objc final public var color: Spine.Color {
+    @objc get
+  }
+  @objc final public var x: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var y: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var rotation: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc @discardableResult
+  final public func computeWorldPosition(bone: Spine.Bone) -> Spine.Vector
+  @objc @discardableResult
+  final public func computeWorldRotation(bone: Spine.Bone) -> Swift.Float
+  @objc final public func setColor(r: Swift.Float, g: Swift.Float, b: Swift.Float, a: Swift.Float)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineMeshAttachment) @objcMembers final public class MeshAttachment : ObjectiveC.NSObject {
+  final public var regionUvs: [Swift.Float?] {
+    get
+  }
+  final public var uvs: [Swift.Float?] {
+    get
+  }
+  @objc final public var triangles: [Swift.UInt16] {
+    @objc get
+  }
+  @objc final public var color: Spine.Color {
+    @objc get
+  }
+  @objc final public var path: Swift.String? {
+    @objc get
+  }
+  @objc final public var region: Spine.TextureRegion {
+    @objc get
+  }
+  @objc final public var sequence: Spine.Sequence? {
+    @objc get
+  }
+  @objc final public var edges: [Swift.UInt16] {
+    @objc get
+  }
+  @objc final public var hullLength: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc final public var parentMesh: Spine.MeshAttachment? {
+    @objc get
+    @objc set
+  }
+  @objc final public var width: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var height: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public func updateRegion()
+  @objc final public func setColor(r: Swift.Float, g: Swift.Float, b: Swift.Float, a: Swift.Float)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpinePathAttachment) @objcMembers final public class PathAttachment : ObjectiveC.NSObject {
+  final public var lengths: [Swift.Float?] {
+    get
+  }
+  @objc final public var color: Spine.Color {
+    @objc get
+  }
+  @objc final public var isClosed: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var isConstantSpeed: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public func setColor(r: Swift.Float, g: Swift.Float, b: Swift.Float, a: Swift.Float)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineConstraintData) @objcMembers final public class ConstraintData : ObjectiveC.NSObject {
+  @objc final public var type: Spine.ConstraintType {
+    @objc get
+  }
+  @objc final public var name: Swift.String? {
+    @objc get
+  }
+  @objc final public var order: Swift.UInt64 {
+    @objc get
+    @objc set
+  }
+  @objc final public var isSkinRequired: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpinePathConstraint) @objcMembers final public class PathConstraint : ObjectiveC.NSObject {
+  @objc final public var order: Swift.Int32 {
+    @objc get
+  }
+  @objc final public var data: Spine.PathConstraintData {
+    @objc get
+  }
+  @objc final public var bones: [Spine.Bone] {
+    @objc get
+  }
+  @objc final public var target: Spine.Slot {
+    @objc get
+    @objc set
+  }
+  @objc final public var position: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var spacing: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixRotate: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var isActive: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public func update()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineAnimationState) @objcMembers final public class AnimationState : ObjectiveC.NSObject {
+  @objc final public var data: Spine.AnimationStateData {
+    @objc get
+  }
+  @objc final public var timeScale: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public func update(delta: Swift.Float)
+  @objc final public func apply(skeleton: Spine.Skeleton)
+  @objc final public func clearTracks()
+  @objc final public func clearTrack(trackIndex: Swift.Int32)
+  @objc @discardableResult
+  final public func setAnimationByName(trackIndex: Swift.Int32, animationName: Swift.String?, loop: Swift.Bool) -> Spine.TrackEntry
+  @objc @discardableResult
+  final public func setAnimation(trackIndex: Swift.Int32, animation: Spine.Animation, loop: Swift.Bool) -> Spine.TrackEntry
+  @objc @discardableResult
+  final public func addAnimationByName(trackIndex: Swift.Int32, animationName: Swift.String?, loop: Swift.Bool, delay: Swift.Float) -> Spine.TrackEntry
+  @objc @discardableResult
+  final public func addAnimation(trackIndex: Swift.Int32, animation: Spine.Animation, loop: Swift.Bool, delay: Swift.Float) -> Spine.TrackEntry
+  @objc @discardableResult
+  final public func setEmptyAnimation(trackIndex: Swift.Int32, mixDuration: Swift.Float) -> Spine.TrackEntry
+  @objc @discardableResult
+  final public func addEmptyAnimation(trackIndex: Swift.Int32, mixDuration: Swift.Float, delay: Swift.Float) -> Spine.TrackEntry
+  @objc @discardableResult
+  final public func getCurrent(trackIndex: Swift.Int32) -> Spine.TrackEntry?
+  @objc final public func setEmptyAnimations(mixDuration: Swift.Float)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineTextureRegion) @objcMembers final public class TextureRegion : ObjectiveC.NSObject {
+  @objc final public var texture: Swift.UnsafeMutableRawPointer {
+    @objc get
+    @objc set
+  }
+  @objc final public var u: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var v: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var u2: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var v2: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var degrees: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc final public var offsetX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var offsetY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var width: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc final public var height: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc final public var originalWidth: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc final public var originalHeight: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineRenderCommand) @objcMembers final public class RenderCommand : ObjectiveC.NSObject {
+  @objc final public var indices: [Swift.UInt16] {
+    @objc get
+  }
+  @objc final public var atlasPage: Swift.Int32 {
+    @objc get
+  }
+  @objc final public var blendMode: Spine.BlendMode {
+    @objc get
+  }
+  @objc final public var next: Spine.RenderCommand {
+    @objc get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineSkeletonData) @objcMembers final public class SkeletonData : ObjectiveC.NSObject {
+  @objc final public var name: Swift.String? {
+    @objc get
+  }
+  @objc final public var bones: [Spine.BoneData] {
+    @objc get
+  }
+  @objc final public var slots: [Spine.SlotData] {
+    @objc get
+  }
+  @objc final public var skins: [Spine.Skin] {
+    @objc get
+  }
+  @objc final public var events: [Spine.EventData] {
+    @objc get
+  }
+  @objc final public var animations: [Spine.Animation] {
+    @objc get
+  }
+  @objc final public var ikConstraints: [Spine.IkConstraintData] {
+    @objc get
+  }
+  @objc final public var transformConstraints: [Spine.TransformConstraintData] {
+    @objc get
+  }
+  @objc final public var pathConstraints: [Spine.PathConstraintData] {
+    @objc get
+  }
+  @objc final public var physicsConstraints: [Spine.PhysicsConstraintData] {
+    @objc get
+  }
+  @objc final public var version: Swift.String? {
+    @objc get
+  }
+  @objc final public var imagesPath: Swift.String? {
+    @objc get
+  }
+  @objc final public var audioPath: Swift.String? {
+    @objc get
+  }
+  @objc final public var fps: Swift.Float {
+    @objc get
+  }
+  @objc final public var referenceScale: Swift.Float {
+    @objc get
+  }
+  @objc final public var defaultSkin: Spine.Skin? {
+    @objc get
+    @objc set
+  }
+  @objc final public var x: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var y: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var width: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var height: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc @discardableResult
+  final public func findBone(name: Swift.String?) -> Spine.BoneData?
+  @objc @discardableResult
+  final public func findSlot(name: Swift.String?) -> Spine.SlotData?
+  @objc @discardableResult
+  final public func findSkin(name: Swift.String?) -> Spine.Skin?
+  @objc @discardableResult
+  final public func findEvent(name: Swift.String?) -> Spine.EventData?
+  @objc @discardableResult
+  final public func findAnimation(name: Swift.String?) -> Spine.Animation?
+  @objc @discardableResult
+  final public func findIkConstraint(name: Swift.String?) -> Spine.IkConstraintData?
+  @objc @discardableResult
+  final public func findTransformConstraint(name: Swift.String?) -> Spine.TransformConstraintData?
+  @objc @discardableResult
+  final public func findPathConstraint(name: Swift.String?) -> Spine.PathConstraintData?
+  @objc @discardableResult
+  final public func findPhysicsConstraint(name: Swift.String?) -> Spine.PhysicsConstraintData?
+  @objc final public func dispose()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineIkConstraint) @objcMembers final public class IkConstraint : ObjectiveC.NSObject {
+  @objc final public var order: Swift.Int32 {
+    @objc get
+  }
+  @objc final public var data: Spine.IkConstraintData {
+    @objc get
+  }
+  @objc final public var bones: [Spine.Bone] {
+    @objc get
+  }
+  @objc final public var target: Spine.Bone {
+    @objc get
+    @objc set
+  }
+  @objc final public var bendDirection: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc final public var compress: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var stretch: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var mix: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var softness: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var isActive: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public func update()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineSkinEntries) @objcMembers final public class SkinEntries : ObjectiveC.NSObject {
+  @objc @discardableResult
+  final public func getEntry(index: Swift.Int32) -> Spine.SkinEntry
+  @objc final public func dispose()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineTrackEntry) @objcMembers final public class TrackEntry : ObjectiveC.NSObject {
+  @objc final public var trackIndex: Swift.Int32 {
+    @objc get
+  }
+  @objc final public var animation: Spine.Animation {
+    @objc get
+  }
+  @objc final public var previous: Spine.TrackEntry {
+    @objc get
+  }
+  @objc final public var animationTime: Swift.Float {
+    @objc get
+  }
+  @objc final public var next: Spine.TrackEntry? {
+    @objc get
+  }
+  @objc final public var isComplete: Swift.Bool {
+    @objc get
+  }
+  @objc final public var mixingFrom: Spine.TrackEntry? {
+    @objc get
+  }
+  @objc final public var mixingTo: Spine.TrackEntry? {
+    @objc get
+  }
+  @objc final public var trackComplete: Swift.Float {
+    @objc get
+  }
+  @objc final public var isNextReady: Swift.Bool {
+    @objc get
+  }
+  @objc final public var loop: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var holdPrevious: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var reverse: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var shortestRotation: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var delay: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var trackTime: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var trackEnd: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var animationStart: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var animationEnd: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var animationLast: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var timeScale: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var alpha: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var eventThreshold: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var alphaAttachmentThreshold: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixAttachmentThreshold: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixDrawOrderThreshold: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixTime: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixDuration: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var mixBlend: Spine.MixBlend {
+    @objc get
+    @objc set
+  }
+  @objc final public func resetRotationDirections()
+  @objc @discardableResult
+  final public func wasApplied() -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineAttachment) @objcMembers final public class Attachment : ObjectiveC.NSObject {
+  @objc final public var name: Swift.String? {
+    @objc get
+  }
+  @objc final public var type: Spine.AttachmentType {
+    @objc get
+  }
+  @objc final public func dispose()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineConstraint) @objcMembers final public class Constraint : ObjectiveC.NSObject {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineEventData) @objcMembers final public class EventData : ObjectiveC.NSObject {
+  @objc final public var name: Swift.String? {
+    @objc get
+  }
+  @objc final public var audioPath: Swift.String? {
+    @objc get
+  }
+  @objc final public var intValue: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc final public var floatValue: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var stringValue: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc final public var volume: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var balance: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineSkinEntry) @objcMembers final public class SkinEntry : ObjectiveC.NSObject {
+  @objc final public var slotIndex: Swift.Int32 {
+    @objc get
+  }
+  @objc final public var name: Swift.String? {
+    @objc get
+  }
+  @objc final public var attachment: Spine.Attachment {
+    @objc get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineBoneData) @objcMembers final public class BoneData : ObjectiveC.NSObject {
+  @objc final public var index: Swift.Int32 {
+    @objc get
+  }
+  @objc final public var name: Swift.String? {
+    @objc get
+  }
+  @objc final public var parent: Spine.BoneData? {
+    @objc get
+  }
+  @objc final public var color: Spine.Color {
+    @objc get
+  }
+  @objc final public var length: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var x: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var y: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var rotation: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var scaleX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var scaleY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var shearX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var shearY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var inherit: Spine.Inherit {
+    @objc get
+    @objc set
+  }
+  @objc final public var isSkinRequired: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var isVisible: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public func setColor(r: Swift.Float, g: Swift.Float, b: Swift.Float, a: Swift.Float)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineSlotData) @objcMembers final public class SlotData : ObjectiveC.NSObject {
+  @objc final public var index: Swift.Int32 {
+    @objc get
+  }
+  @objc final public var name: Swift.String? {
+    @objc get
+  }
+  @objc final public var boneData: Spine.BoneData {
+    @objc get
+  }
+  @objc final public var color: Spine.Color {
+    @objc get
+  }
+  @objc final public var darkColor: Spine.Color {
+    @objc get
+  }
+  @objc final public var hasDarkColor: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var attachmentName: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc final public var blendMode: Spine.BlendMode {
+    @objc get
+    @objc set
+  }
+  @objc final public var isVisible: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public func setColor(r: Swift.Float, g: Swift.Float, b: Swift.Float, a: Swift.Float)
+  @objc final public func setDarkColor(r: Swift.Float, g: Swift.Float, b: Swift.Float, a: Swift.Float)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineAnimation) @objcMembers final public class Animation : ObjectiveC.NSObject {
+  @objc final public var name: Swift.String? {
+    @objc get
+  }
+  @objc final public var duration: Swift.Float {
+    @objc get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineSkeleton) @objcMembers final public class Skeleton : ObjectiveC.NSObject {
+  @objc final public var bounds: Spine.Bounds {
+    @objc get
+  }
+  @objc final public var rootBone: Spine.Bone? {
+    @objc get
+  }
+  @objc final public var data: Spine.SkeletonData? {
+    @objc get
+  }
+  @objc final public var bones: [Spine.Bone] {
+    @objc get
+  }
+  @objc final public var slots: [Spine.Slot] {
+    @objc get
+  }
+  @objc final public var drawOrder: [Spine.Slot] {
+    @objc get
+  }
+  @objc final public var ikConstraints: [Spine.IkConstraint] {
+    @objc get
+  }
+  @objc final public var transformConstraints: [Spine.TransformConstraint] {
+    @objc get
+  }
+  @objc final public var pathConstraints: [Spine.PathConstraint] {
+    @objc get
+  }
+  @objc final public var physicsConstraints: [Spine.PhysicsConstraint] {
+    @objc get
+  }
+  @objc final public var color: Spine.Color {
+    @objc get
+  }
+  @objc final public var skin: Spine.Skin? {
+    @objc get
+    @objc set
+  }
+  @objc final public var x: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var y: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var scaleX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var scaleY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var time: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public func updateCache()
+  @objc final public func updateWorldTransform(physics: Spine.Physics)
+  @objc final public func updateWorldTransformBone(physics: Spine.Physics, parent: Spine.Bone)
+  @objc final public func setToSetupPose()
+  @objc final public func setBonesToSetupPose()
+  @objc final public func setSlotsToSetupPose()
+  @objc @discardableResult
+  final public func findBone(boneName: Swift.String?) -> Spine.Bone?
+  @objc @discardableResult
+  final public func findSlot(slotName: Swift.String?) -> Spine.Slot?
+  @objc @discardableResult
+  final public func getAttachmentByName(slotName: Swift.String?, attachmentName: Swift.String?) -> Spine.Attachment?
+  @objc @discardableResult
+  final public func getAttachment(slotIndex: Swift.Int32, attachmentName: Swift.String?) -> Spine.Attachment?
+  @objc final public func setAttachment(slotName: Swift.String?, attachmentName: Swift.String?)
+  @objc @discardableResult
+  final public func findIkConstraint(constraintName: Swift.String?) -> Spine.IkConstraint?
+  @objc @discardableResult
+  final public func findTransformConstraint(constraintName: Swift.String?) -> Spine.TransformConstraint?
+  @objc @discardableResult
+  final public func findPathConstraint(constraintName: Swift.String?) -> Spine.PathConstraint?
+  @objc @discardableResult
+  final public func findPhysicsConstraint(constraintName: Swift.String?) -> Spine.PhysicsConstraint?
+  @objc final public func setColor(r: Swift.Float, g: Swift.Float, b: Swift.Float, a: Swift.Float)
+  @objc final public func setPosition(x: Swift.Float, y: Swift.Float)
+  @objc final public func setScale(scaleX: Swift.Float, scaleY: Swift.Float)
+  @objc final public func update(delta: Swift.Float)
+  @objc final public func setSkinByName(skinName: Swift.String?)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineSequence) @objcMembers final public class Sequence : ObjectiveC.NSObject {
+  @objc final public var regions: [Spine.TextureRegion] {
+    @objc get
+  }
+  @objc final public var id: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc final public var start: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc final public var digits: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc final public var setupIndex: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc final public func apply(slot: Spine.Slot, attachment: Spine.Attachment)
+  @objc @discardableResult
+  final public func getPath(basePath: Swift.String?, index: Swift.Int32) -> Swift.String?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineBounds) @objcMembers final public class Bounds : ObjectiveC.NSObject {
+  @objc final public var x: Swift.Float {
+    @objc get
+  }
+  @objc final public var y: Swift.Float {
+    @objc get
+  }
+  @objc final public var width: Swift.Float {
+    @objc get
+  }
+  @objc final public var height: Swift.Float {
+    @objc get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineVector) @objcMembers final public class Vector : ObjectiveC.NSObject {
+  @objc final public var x: Swift.Float {
+    @objc get
+  }
+  @objc final public var y: Swift.Float {
+    @objc get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineEvent) @objcMembers final public class Event : ObjectiveC.NSObject {
+  @objc final public var data: Spine.EventData {
+    @objc get
+  }
+  @objc final public var time: Swift.Float {
+    @objc get
+  }
+  @objc final public var intValue: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc final public var floatValue: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var stringValue: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc final public var volume: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var balance: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineAtlas) @objcMembers final public class Atlas : ObjectiveC.NSObject {
+  @objc final public var isPma: Swift.Bool {
+    @objc get
+  }
+  @objc final public var error: Swift.String? {
+    @objc get
+  }
+  @objc @discardableResult
+  final public func load(atlasData: Swift.String?) -> Spine.Atlas
+  @objc @discardableResult
+  final public func getImagePath(index: Swift.Int32) -> Swift.String?
+  @objc final public func dispose()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineColor) @objcMembers final public class Color : ObjectiveC.NSObject {
+  @objc final public var r: Swift.Float {
+    @objc get
+  }
+  @objc final public var g: Swift.Float {
+    @objc get
+  }
+  @objc final public var b: Swift.Float {
+    @objc get
+  }
+  @objc final public var a: Swift.Float {
+    @objc get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineBone) @objcMembers final public class Bone : ObjectiveC.NSObject {
+  @objc final public func setIsYDown(yDown: Swift.Bool)
+  @objc final public var worldToLocalRotationX: Swift.Float {
+    @objc get
+  }
+  @objc final public var worldToLocalRotationY: Swift.Float {
+    @objc get
+  }
+  @objc final public var data: Spine.BoneData {
+    @objc get
+  }
+  @objc final public var skeleton: Spine.Skeleton {
+    @objc get
+  }
+  @objc final public var parent: Spine.Bone? {
+    @objc get
+  }
+  @objc final public var children: [Spine.Bone] {
+    @objc get
+  }
+  @objc final public var worldRotationX: Swift.Float {
+    @objc get
+  }
+  @objc final public var worldRotationY: Swift.Float {
+    @objc get
+  }
+  @objc final public var worldScaleX: Swift.Float {
+    @objc get
+  }
+  @objc final public var worldScaleY: Swift.Float {
+    @objc get
+  }
+  @objc final public var x: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var y: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var rotation: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var scaleX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var scaleY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var shearX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var shearY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var appliedRotation: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var aX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var aY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var aScaleX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var aScaleY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var aShearX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var aShearY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var a: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var b: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var c: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var d: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var worldX: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var worldY: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc final public var isActive: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var inherit: Spine.Inherit {
+    @objc get
+    @objc set
+  }
+  @objc final public var isYDown: Swift.Bool {
+    @objc get
+  }
+  @objc final public func update()
+  @objc final public func updateWorldTransform()
+  @objc final public func updateWorldTransformWith(x: Swift.Float, y: Swift.Float, rotation: Swift.Float, scaleX: Swift.Float, scaleY: Swift.Float, shearX: Swift.Float, shearY: Swift.Float)
+  @objc final public func updateAppliedTransform()
+  @objc final public func setToSetupPose()
+  @objc @discardableResult
+  final public func worldToLocal(worldX: Swift.Float, worldY: Swift.Float) -> Spine.Vector
+  @objc @discardableResult
+  final public func worldToParent(worldX: Swift.Float, worldY: Swift.Float) -> Spine.Vector
+  @objc @discardableResult
+  final public func localToWorld(localX: Swift.Float, localY: Swift.Float) -> Spine.Vector
+  @objc @discardableResult
+  final public func parentToWorld(localX: Swift.Float, localY: Swift.Float) -> Spine.Vector
+  @objc @discardableResult
+  final public func worldToLocalRotation(worldRotation: Swift.Float) -> Swift.Float
+  @objc @discardableResult
+  final public func localToWorldRotation(localRotation: Swift.Float) -> Swift.Float
+  @objc final public func rotateWorld(degrees: Swift.Float)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineSlot) @objcMembers final public class Slot : ObjectiveC.NSObject {
+  @objc final public var data: Spine.SlotData {
+    @objc get
+  }
+  @objc final public var bone: Spine.Bone {
+    @objc get
+  }
+  @objc final public var skeleton: Spine.Skeleton {
+    @objc get
+  }
+  @objc final public var color: Spine.Color {
+    @objc get
+  }
+  @objc final public var darkColor: Spine.Color {
+    @objc get
+  }
+  @objc final public var attachment: Spine.Attachment? {
+    @objc get
+    @objc set
+  }
+  @objc final public var sequenceIndex: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc final public func setToSetupPose()
+  @objc final public func setColor(r: Swift.Float, g: Swift.Float, b: Swift.Float, a: Swift.Float)
+  @objc final public func setDarkColor(r: Swift.Float, g: Swift.Float, b: Swift.Float, a: Swift.Float)
+  @objc @discardableResult
+  final public func hasDarkColor() -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(SpineSkin) @objcMembers final public class Skin : ObjectiveC.NSObject {
+  @objc final public var name: Swift.String? {
+    @objc get
+  }
+  @objc final public var entries: Spine.SkinEntries {
+    @objc get
+  }
+  @objc final public var bones: [Spine.BoneData] {
+    @objc get
+  }
+  @objc final public var constraints: [Spine.ConstraintData] {
+    @objc get
+  }
+  @objc final public func setAttachment(slotIndex: Swift.Int32, name: Swift.String?, attachment: Spine.Attachment)
+  @objc @discardableResult
+  final public func getAttachment(slotIndex: Swift.Int32, name: Swift.String?) -> Spine.Attachment?
+  @objc final public func removeAttachment(slotIndex: Swift.Int32, name: Swift.String?)
+  @objc final public func addSkin(other: Spine.Skin)
+  @objc final public func copySkin(other: Spine.Skin)
+  @objc final public func dispose()
+  @objc deinit
+}
+@objc(SpineBoundsProvider) public protocol BoundsProvider {
+  @objc func computeBounds(for drawable: Spine.SkeletonDrawableWrapper) -> CoreFoundation.CGRect
+}
+@_inheritsConvenienceInitializers @objc(SpineSetupPoseBounds) @objcMembers final public class SetupPoseBounds : ObjectiveC.NSObject, Spine.BoundsProvider {
+  @objc override dynamic public init()
+  @objc final public func computeBounds(for drawable: Spine.SkeletonDrawableWrapper) -> CoreFoundation.CGRect
+  @objc deinit
+}
+@objc(SpineRawBounds) @objcMembers final public class RawBounds : ObjectiveC.NSObject, Spine.BoundsProvider {
+  @objc final public let x: Swift.Double
+  @objc final public let y: Swift.Double
+  @objc final public let width: Swift.Double
+  @objc final public let height: Swift.Double
+  @objc public init(x: Swift.Double, y: Swift.Double, width: Swift.Double, height: Swift.Double)
+  @objc final public func computeBounds(for drawable: Spine.SkeletonDrawableWrapper) -> CoreFoundation.CGRect
+  @objc deinit
+}
+@objc(SpineSkinAndAnimationBounds) @objcMembers final public class SkinAndAnimationBounds : ObjectiveC.NSObject, Spine.BoundsProvider {
+  @objc public init(animation: Swift.String? = nil, skins: [Swift.String]? = nil, let stepTime: Foundation.TimeInterval = 0.1)
+  @objc final public func computeBounds(for drawable: Spine.SkeletonDrawableWrapper) -> CoreFoundation.CGRect
+  @objc deinit
+}
+@objc public enum ContentMode : Swift.Int {
+  case fit
+  case fill
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum Alignment : Swift.Int {
+  case topLeft
+  case topCenter
+  case topRight
+  case centerLeft
+  case center
+  case centerRight
+  case bottomLeft
+  case bottomCenter
+  case bottomRight
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension Spine.SkeletonDrawableWrapper {
+  final public func renderToImage(size: CoreFoundation.CGSize, backgroundColor: UIKit.UIColor, scaleFactor: CoreFoundation.CGFloat = 1) throws -> CoreGraphics.CGImage?
+}
+extension Spine.ContentMode : Swift.Equatable {}
+extension Spine.ContentMode : Swift.Hashable {}
+extension Spine.ContentMode : Swift.RawRepresentable {}
+extension Spine.Alignment : Swift.Equatable {}
+extension Spine.Alignment : Swift.Hashable {}
+extension Spine.Alignment : Swift.RawRepresentable {}

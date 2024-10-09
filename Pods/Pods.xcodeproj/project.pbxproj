@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8CB0003A991E5D1D5D5D5E68F2847CD8 /* SpineShadersStructs */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BBEF9880316CC8614B5BCCA7288DDF09 /* Build configuration list for PBXAggregateTarget "SpineShadersStructs" */;
+			buildPhases = (
+				983AD82C95B9B63067BAEE24827BD685 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = SpineShadersStructs;
+		};
+		CFA91D3168A7C07DB83DBC3A7B8476F6 /* SpineCppLite */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EE48CF25333724870B002C2B6DD3C7DB /* Build configuration list for PBXAggregateTarget "SpineCppLite" */;
+			buildPhases = (
+				E86697CD156CFA630D24CB1F3B67A3BD /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = SpineCppLite;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1481AD5F9397BE463EDA1493688C434A /* Pods-Spine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 721DD83C6B407106AF42A836CB3438B9 /* Pods-Spine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B0206A62130D49FBE7D79189BF40FCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		75533BB6E12D250950368CC91B2407CB /* Pods-Spine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C6B0BAEB07788F11C0CC44FBE64C8C /* Pods-Spine-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77B919864809DB895C351231493A2684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB0003A991E5D1D5D5D5E68F2847CD8;
+			remoteInfo = SpineShadersStructs;
+		};
+		EFE7C4A862443008EFB8138E8234D728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA91D3168A7C07DB83DBC3A7B8476F6;
+			remoteInfo = SpineCppLite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0110B8B9BE683F3BA07864A73AFCFBE9 /* SpineShadersStructs.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = SpineShadersStructs.xcframework; sourceTree = "<group>"; };
+		18C6B0BAEB07788F11C0CC44FBE64C8C /* Pods-Spine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Spine-dummy.m"; sourceTree = "<group>"; };
+		26CDEB98561411262E0A069303BB9406 /* SpineCppLite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SpineCppLite.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3112AC73284FBEFE58B058AC54CCBB50 /* SpineShadersStructs.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SpineShadersStructs.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		317E2A4D49D5C0AA7622A629D0ABE86F /* SpineCppLite-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SpineCppLite-xcframeworks.sh"; sourceTree = "<group>"; };
+		32E6A647672D4D9775CD2FD5A960C687 /* SpineShadersStructs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpineShadersStructs.debug.xcconfig; sourceTree = "<group>"; };
+		55F6ACDA555E2302A81FD7AB9DD39F7D /* Pods-Spine-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Spine-acknowledgements.plist"; sourceTree = "<group>"; };
+		5611385D2BB15042D2F1EEBD8FD905A9 /* Pods-Spine-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Spine-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57E1505EC55135450D061E626FD989F8 /* SpineCppLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpineCppLite.release.xcconfig; sourceTree = "<group>"; };
+		721DD83C6B407106AF42A836CB3438B9 /* Pods-Spine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Spine-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		806F0C70B32E512B75DD5C542B5D40F8 /* SpineShadersStructs-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SpineShadersStructs-xcframeworks.sh"; sourceTree = "<group>"; };
+		9874CE60FB8467ABCA00728FDF43A647 /* SpineCppLite.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = SpineCppLite.xcframework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A399BE5CCA9B65CBB46ADC7E312D9A24 /* Pods-Spine */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Spine"; path = Pods_Spine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B657C761453F2B5B7F0181D2B77DD6 /* Pods-Spine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Spine.modulemap"; sourceTree = "<group>"; };
+		AADB84C301C3468CF55DB02F18C98244 /* Pods-Spine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Spine-Info.plist"; sourceTree = "<group>"; };
+		CD1AEA5090E557B50962DBDB335B0696 /* Pods-Spine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Spine.debug.xcconfig"; sourceTree = "<group>"; };
+		D95F88C7F95529A3BDF1B9800DEEDBD4 /* SpineCppLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpineCppLite.debug.xcconfig; sourceTree = "<group>"; };
+		DA2546704EC420D6EC8F5A87F9CDC61D /* SpineShadersStructs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpineShadersStructs.release.xcconfig; sourceTree = "<group>"; };
+		DD39ADD52B0BF7123121F8BC9C62A446 /* Pods-Spine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Spine.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C537D0DD41C23DF37E267123745BF52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0206A62130D49FBE7D79189BF40FCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		326AC410E2CF005796C758F82E70A07A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A399BE5CCA9B65CBB46ADC7E312D9A24 /* Pods-Spine */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E32604A545ABBB9591A0B1527E40F15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0110B8B9BE683F3BA07864A73AFCFBE9 /* SpineShadersStructs.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46F3E41DF04BC41A66F4ACE10938A257 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				26CDEB98561411262E0A069303BB9406 /* SpineCppLite.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		70D07F17258E46798E2E6B7F3A0E8738 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3112AC73284FBEFE58B058AC54CCBB50 /* SpineShadersStructs.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		764D42358DFE766C519F64855E3FD375 /* SpineShadersStructs */ = {
+			isa = PBXGroup;
+			children = (
+				3E32604A545ABBB9591A0B1527E40F15 /* Frameworks */,
+				70D07F17258E46798E2E6B7F3A0E8738 /* Pod */,
+				7DD1982F9D2346183E1736E943037659 /* Support Files */,
+			);
+			name = SpineShadersStructs;
+			path = ../../SpineShadersStructs;
+			sourceTree = "<group>";
+		};
+		7DD1982F9D2346183E1736E943037659 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				806F0C70B32E512B75DD5C542B5D40F8 /* SpineShadersStructs-xcframeworks.sh */,
+				32E6A647672D4D9775CD2FD5A960C687 /* SpineShadersStructs.debug.xcconfig */,
+				DA2546704EC420D6EC8F5A87F9CDC61D /* SpineShadersStructs.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Spine/Pods/Target Support Files/SpineShadersStructs";
+			sourceTree = "<group>";
+		};
+		93CB8D5FF92F383487E868EF49958733 /* Pods-Spine */ = {
+			isa = PBXGroup;
+			children = (
+				A3B657C761453F2B5B7F0181D2B77DD6 /* Pods-Spine.modulemap */,
+				5611385D2BB15042D2F1EEBD8FD905A9 /* Pods-Spine-acknowledgements.markdown */,
+				55F6ACDA555E2302A81FD7AB9DD39F7D /* Pods-Spine-acknowledgements.plist */,
+				18C6B0BAEB07788F11C0CC44FBE64C8C /* Pods-Spine-dummy.m */,
+				AADB84C301C3468CF55DB02F18C98244 /* Pods-Spine-Info.plist */,
+				721DD83C6B407106AF42A836CB3438B9 /* Pods-Spine-umbrella.h */,
+				CD1AEA5090E557B50962DBDB335B0696 /* Pods-Spine.debug.xcconfig */,
+				DD39ADD52B0BF7123121F8BC9C62A446 /* Pods-Spine.release.xcconfig */,
+			);
+			name = "Pods-Spine";
+			path = "Target Support Files/Pods-Spine";
+			sourceTree = "<group>";
+		};
+		961E26A551665892606ACE46B2BC6C1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9874CE60FB8467ABCA00728FDF43A647 /* SpineCppLite.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				EA1C8612DA8DADCEC9DEF9D24EFD3D21 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				326AC410E2CF005796C758F82E70A07A /* Products */,
+				DACB490F635B04B27408B199CE1C8C9C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DACB490F635B04B27408B199CE1C8C9C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93CB8D5FF92F383487E868EF49958733 /* Pods-Spine */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DC82C724D2E371E7A05F0AC0F7FE7B11 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				317E2A4D49D5C0AA7622A629D0ABE86F /* SpineCppLite-xcframeworks.sh */,
+				D95F88C7F95529A3BDF1B9800DEEDBD4 /* SpineCppLite.debug.xcconfig */,
+				57E1505EC55135450D061E626FD989F8 /* SpineCppLite.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Spine/Pods/Target Support Files/SpineCppLite";
+			sourceTree = "<group>";
+		};
+		EA1C8612DA8DADCEC9DEF9D24EFD3D21 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F424E8B67D427E7AFBD9B5CBC95DBCA5 /* SpineCppLite */,
+				764D42358DFE766C519F64855E3FD375 /* SpineShadersStructs */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F424E8B67D427E7AFBD9B5CBC95DBCA5 /* SpineCppLite */ = {
+			isa = PBXGroup;
+			children = (
+				961E26A551665892606ACE46B2BC6C1B /* Frameworks */,
+				46F3E41DF04BC41A66F4ACE10938A257 /* Pod */,
+				DC82C724D2E371E7A05F0AC0F7FE7B11 /* Support Files */,
+			);
+			name = SpineCppLite;
+			path = ../../SpineCppLite;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C6460E739F6CDF0B43F4E1446BEE500 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1481AD5F9397BE463EDA1493688C434A /* Pods-Spine-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BB83E73FCF92D50FE48865BBC0EBAB1B /* Pods-Spine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72550D5DD3DA2B7BD9A1E7FC323AE4DC /* Build configuration list for PBXNativeTarget "Pods-Spine" */;
+			buildPhases = (
+				1C6460E739F6CDF0B43F4E1446BEE500 /* Headers */,
+				906C45A39FAC997F340E3540867EE1F3 /* Sources */,
+				0C537D0DD41C23DF37E267123745BF52 /* Frameworks */,
+				1EE324CE8F9C2449A05EC6B35C2FD4E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F674D81270D7707600F95C1DE49D5A7 /* PBXTargetDependency */,
+				9E6E80A931630E696DAF7779A0864ADC /* PBXTargetDependency */,
+			);
+			name = "Pods-Spine";
+			productName = Pods_Spine;
+			productReference = A399BE5CCA9B65CBB46ADC7E312D9A24 /* Pods-Spine */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 326AC410E2CF005796C758F82E70A07A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB83E73FCF92D50FE48865BBC0EBAB1B /* Pods-Spine */,
+				CFA91D3168A7C07DB83DBC3A7B8476F6 /* SpineCppLite */,
+				8CB0003A991E5D1D5D5D5E68F2847CD8 /* SpineShadersStructs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EE324CE8F9C2449A05EC6B35C2FD4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		983AD82C95B9B63067BAEE24827BD685 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/SpineShadersStructs/SpineShadersStructs-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/SpineShadersStructs/SpineShadersStructs-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/SpineShadersStructs/SpineShadersStructs-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E86697CD156CFA630D24CB1F3B67A3BD /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/SpineCppLite/SpineCppLite-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/SpineCppLite/SpineCppLite-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/SpineCppLite/SpineCppLite-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		906C45A39FAC997F340E3540867EE1F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75533BB6E12D250950368CC91B2407CB /* Pods-Spine-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F674D81270D7707600F95C1DE49D5A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpineCppLite;
+			target = CFA91D3168A7C07DB83DBC3A7B8476F6 /* SpineCppLite */;
+			targetProxy = EFE7C4A862443008EFB8138E8234D728 /* PBXContainerItemProxy */;
+		};
+		9E6E80A931630E696DAF7779A0864ADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpineShadersStructs;
+			target = 8CB0003A991E5D1D5D5D5E68F2847CD8 /* SpineShadersStructs */;
+			targetProxy = 77B919864809DB895C351231493A2684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F7ABBC3DCCD8CB31E1F0EBEB96EB56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD39ADD52B0BF7123121F8BC9C62A446 /* Pods-Spine.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Spine/Pods-Spine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Spine/Pods-Spine.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18E486A259A09CF2659A9862D1301841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA2546704EC420D6EC8F5A87F9CDC61D /* SpineShadersStructs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A7024579AC2FBECE1433423954FBA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D95F88C7F95529A3BDF1B9800DEEDBD4 /* SpineCppLite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40B7C66948B6CC6D0C5FAD75543A072C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32E6A647672D4D9775CD2FD5A960C687 /* SpineShadersStructs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F4E3C80FFCE7CD1E7FBC08F7EA6B8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57E1505EC55135450D061E626FD989F8 /* SpineCppLite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F1CB548F3E7F3499F6B5DBF26A181FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1AEA5090E557B50962DBDB335B0696 /* Pods-Spine.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Spine/Pods-Spine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Spine/Pods-Spine.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72550D5DD3DA2B7BD9A1E7FC323AE4DC /* Build configuration list for PBXNativeTarget "Pods-Spine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CB548F3E7F3499F6B5DBF26A181FBB /* Debug */,
+				0F7ABBC3DCCD8CB31E1F0EBEB96EB56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEF9880316CC8614B5BCCA7288DDF09 /* Build configuration list for PBXAggregateTarget "SpineShadersStructs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B7C66948B6CC6D0C5FAD75543A072C /* Debug */,
+				18E486A259A09CF2659A9862D1301841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE48CF25333724870B002C2B6DD3C7DB /* Build configuration list for PBXAggregateTarget "SpineCppLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7024579AC2FBECE1433423954FBA9D /* Debug */,
+				6F4E3C80FFCE7CD1E7FBC08F7EA6B8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

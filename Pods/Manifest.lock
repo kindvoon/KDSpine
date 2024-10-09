@@ -1,0 +1,21 @@
+PODS:
+  - SpineCppLite (4.2.0)
+  - SpineShadersStructs (4.2.0)
+
+DEPENDENCIES:
+  - SpineCppLite (from `../SpineCppLite`)
+  - SpineShadersStructs (from `../SpineShadersStructs`)
+
+EXTERNAL SOURCES:
+  SpineCppLite:
+    :path: "../SpineCppLite"
+  SpineShadersStructs:
+    :path: "../SpineShadersStructs"
+
+SPEC CHECKSUMS:
+  SpineCppLite: e92a8c2d3a01aa0ff109b4b0bf3e86f646a086ed
+  SpineShadersStructs: bba1f14d3304cc62079fcea6c30496b28f7d4bce
+
+PODFILE CHECKSUM: 1495b13cbb2805bf3d84c6ffffc20a2b350ebcfe
+
+COCOAPODS: 1.15.2
