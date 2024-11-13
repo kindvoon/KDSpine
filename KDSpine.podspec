@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'KDSpine'
-  s.version          = '1.2.1'
+  s.version          = '1.2.2'
   s.summary          = 'Spine runtimes for iOS.'
   s.description      = <<-DESC
 Spine runtimes for iOS.

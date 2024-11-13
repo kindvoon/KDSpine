@@ -270,8 +270,8 @@
       },
       {
         "kind": "Import",
-        "name": "SpineCppLiteFramework",
-        "printedName": "SpineCppLiteFramework",
+        "name": "SpineCppLite",
+        "printedName": "SpineCppLite",
         "declKind": "Import",
         "moduleName": "Spine"
       },
@@ -637,8 +637,8 @@
       },
       {
         "kind": "Import",
-        "name": "SpineCppLiteFramework",
-        "printedName": "SpineCppLiteFramework",
+        "name": "SpineCppLite",
+        "printedName": "SpineCppLite",
         "declKind": "Import",
         "moduleName": "Spine"
       },
@@ -4377,8 +4377,8 @@
       },
       {
         "kind": "Import",
-        "name": "SpineCppLiteFramework",
-        "printedName": "SpineCppLiteFramework",
+        "name": "SpineCppLite",
+        "printedName": "SpineCppLite",
         "declKind": "Import",
         "moduleName": "Spine"
       },
@@ -4540,12 +4540,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((SpineCppLiteFramework.spine_event_type, Spine.TrackEntry, Spine.Event?) -> ())?",
+                "printedName": "((SpineCppLite.spine_event_type, Spine.TrackEntry, Spine.Event?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(SpineCppLiteFramework.spine_event_type, Spine.TrackEntry, Spine.Event?) -> ()",
+                    "printedName": "(SpineCppLite.spine_event_type, Spine.TrackEntry, Spine.Event?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4555,12 +4555,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(SpineCppLiteFramework.spine_event_type, Spine.TrackEntry, Spine.Event?)",
+                        "printedName": "(SpineCppLite.spine_event_type, Spine.TrackEntry, Spine.Event?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "spine_event_type",
-                            "printedName": "SpineCppLiteFramework.spine_event_type",
+                            "printedName": "SpineCppLite.spine_event_type",
                             "usr": "c:@E@spine_event_type"
                           },
                           {
@@ -4645,12 +4645,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((SpineCppLiteFramework.spine_event_type, Spine.TrackEntry, Spine.Event?) -> ())?",
+                "printedName": "((SpineCppLite.spine_event_type, Spine.TrackEntry, Spine.Event?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(SpineCppLiteFramework.spine_event_type, Spine.TrackEntry, Spine.Event?) -> ()",
+                    "printedName": "(SpineCppLite.spine_event_type, Spine.TrackEntry, Spine.Event?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4660,12 +4660,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(SpineCppLiteFramework.spine_event_type, Spine.TrackEntry, Spine.Event?)",
+                        "printedName": "(SpineCppLite.spine_event_type, Spine.TrackEntry, Spine.Event?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "spine_event_type",
-                            "printedName": "SpineCppLiteFramework.spine_event_type",
+                            "printedName": "SpineCppLite.spine_event_type",
                             "usr": "c:@E@spine_event_type"
                           },
                           {
@@ -5191,8 +5191,8 @@
       },
       {
         "kind": "Import",
-        "name": "SpineCppLiteFramework",
-        "printedName": "SpineCppLiteFramework",
+        "name": "SpineCppLite",
+        "printedName": "SpineCppLite",
         "declKind": "Import",
         "moduleName": "Spine"
       },
@@ -6432,8 +6432,8 @@
       },
       {
         "kind": "Import",
-        "name": "SpineCppLiteFramework",
-        "printedName": "SpineCppLiteFramework",
+        "name": "SpineCppLite",
+        "printedName": "SpineCppLite",
         "declKind": "Import",
         "moduleName": "Spine",
         "declAttributes": [
@@ -6453,12 +6453,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_transform_constraint_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_transform_constraint_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_transform_constraint_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_transform_constraint_data_wrapper",
+                    "printedName": "SpineCppLite.spine_transform_constraint_data_wrapper",
                     "usr": "c:@S@spine_transform_constraint_data_wrapper"
                   }
                 ],
@@ -6486,12 +6486,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_transform_constraint_data_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_transform_constraint_data_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_transform_constraint_data_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_transform_constraint_data_wrapper",
+                        "printedName": "SpineCppLite.spine_transform_constraint_data_wrapper",
                         "usr": "c:@S@spine_transform_constraint_data_wrapper"
                       }
                     ],
@@ -6525,12 +6525,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_transform_constraint_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_transform_constraint_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_transform_constraint_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_transform_constraint_data_wrapper",
+                    "printedName": "SpineCppLite.spine_transform_constraint_data_wrapper",
                     "usr": "c:@S@spine_transform_constraint_data_wrapper"
                   }
                 ],
@@ -8127,12 +8127,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_bounding_box_attachment_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_bounding_box_attachment_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_bounding_box_attachment_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_bounding_box_attachment_wrapper",
+                    "printedName": "SpineCppLite.spine_bounding_box_attachment_wrapper",
                     "usr": "c:@S@spine_bounding_box_attachment_wrapper"
                   }
                 ],
@@ -8160,12 +8160,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_bounding_box_attachment_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_bounding_box_attachment_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_bounding_box_attachment_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_bounding_box_attachment_wrapper",
+                        "printedName": "SpineCppLite.spine_bounding_box_attachment_wrapper",
                         "usr": "c:@S@spine_bounding_box_attachment_wrapper"
                       }
                     ],
@@ -8199,12 +8199,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_bounding_box_attachment_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_bounding_box_attachment_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_bounding_box_attachment_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_bounding_box_attachment_wrapper",
+                    "printedName": "SpineCppLite.spine_bounding_box_attachment_wrapper",
                     "usr": "c:@S@spine_bounding_box_attachment_wrapper"
                   }
                 ],
@@ -8421,12 +8421,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_physics_constraint_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_physics_constraint_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_physics_constraint_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_physics_constraint_data_wrapper",
+                    "printedName": "SpineCppLite.spine_physics_constraint_data_wrapper",
                     "usr": "c:@S@spine_physics_constraint_data_wrapper"
                   }
                 ],
@@ -8454,12 +8454,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_physics_constraint_data_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_physics_constraint_data_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_physics_constraint_data_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_physics_constraint_data_wrapper",
+                        "printedName": "SpineCppLite.spine_physics_constraint_data_wrapper",
                         "usr": "c:@S@spine_physics_constraint_data_wrapper"
                       }
                     ],
@@ -8493,12 +8493,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_physics_constraint_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_physics_constraint_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_physics_constraint_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_physics_constraint_data_wrapper",
+                    "printedName": "SpineCppLite.spine_physics_constraint_data_wrapper",
                     "usr": "c:@S@spine_physics_constraint_data_wrapper"
                   }
                 ],
@@ -10691,12 +10691,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_animation_state_events_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_animation_state_events_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_animation_state_events_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_animation_state_events_wrapper",
+                    "printedName": "SpineCppLite.spine_animation_state_events_wrapper",
                     "usr": "c:@S@spine_animation_state_events_wrapper"
                   }
                 ],
@@ -10724,12 +10724,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_animation_state_events_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_animation_state_events_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_animation_state_events_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_animation_state_events_wrapper",
+                        "printedName": "SpineCppLite.spine_animation_state_events_wrapper",
                         "usr": "c:@S@spine_animation_state_events_wrapper"
                       }
                     ],
@@ -10763,12 +10763,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_animation_state_events_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_animation_state_events_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_animation_state_events_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_animation_state_events_wrapper",
+                    "printedName": "SpineCppLite.spine_animation_state_events_wrapper",
                     "usr": "c:@S@spine_animation_state_events_wrapper"
                   }
                 ],
@@ -10793,7 +10793,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "spine_event_type",
-                "printedName": "SpineCppLiteFramework.spine_event_type",
+                "printedName": "SpineCppLite.spine_event_type",
                 "usr": "c:@E@spine_event_type"
               },
               {
@@ -11013,12 +11013,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_transform_constraint_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_transform_constraint_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_transform_constraint_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_transform_constraint_wrapper",
+                    "printedName": "SpineCppLite.spine_transform_constraint_wrapper",
                     "usr": "c:@S@spine_transform_constraint_wrapper"
                   }
                 ],
@@ -11046,12 +11046,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_transform_constraint_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_transform_constraint_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_transform_constraint_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_transform_constraint_wrapper",
+                        "printedName": "SpineCppLite.spine_transform_constraint_wrapper",
                         "usr": "c:@S@spine_transform_constraint_wrapper"
                       }
                     ],
@@ -11085,12 +11085,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_transform_constraint_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_transform_constraint_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_transform_constraint_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_transform_constraint_wrapper",
+                    "printedName": "SpineCppLite.spine_transform_constraint_wrapper",
                     "usr": "c:@S@spine_transform_constraint_wrapper"
                   }
                 ],
@@ -12143,12 +12143,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_path_constraint_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_path_constraint_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_path_constraint_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_path_constraint_data_wrapper",
+                    "printedName": "SpineCppLite.spine_path_constraint_data_wrapper",
                     "usr": "c:@S@spine_path_constraint_data_wrapper"
                   }
                 ],
@@ -12176,12 +12176,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_path_constraint_data_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_path_constraint_data_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_path_constraint_data_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_path_constraint_data_wrapper",
+                        "printedName": "SpineCppLite.spine_path_constraint_data_wrapper",
                         "usr": "c:@S@spine_path_constraint_data_wrapper"
                       }
                     ],
@@ -12215,12 +12215,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_path_constraint_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_path_constraint_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_path_constraint_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_path_constraint_data_wrapper",
+                    "printedName": "SpineCppLite.spine_path_constraint_data_wrapper",
                     "usr": "c:@S@spine_path_constraint_data_wrapper"
                   }
                 ],
@@ -12401,7 +12401,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "spine_position_mode",
-                "printedName": "SpineCppLiteFramework.spine_position_mode",
+                "printedName": "SpineCppLite.spine_position_mode",
                 "usr": "c:@E@spine_position_mode"
               }
             ],
@@ -12423,7 +12423,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "spine_position_mode",
-                    "printedName": "SpineCppLiteFramework.spine_position_mode",
+                    "printedName": "SpineCppLite.spine_position_mode",
                     "usr": "c:@E@spine_position_mode"
                   }
                 ],
@@ -12450,7 +12450,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "spine_position_mode",
-                    "printedName": "SpineCppLiteFramework.spine_position_mode",
+                    "printedName": "SpineCppLite.spine_position_mode",
                     "usr": "c:@E@spine_position_mode"
                   }
                 ],
@@ -12495,7 +12495,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "spine_spacing_mode",
-                "printedName": "SpineCppLiteFramework.spine_spacing_mode",
+                "printedName": "SpineCppLite.spine_spacing_mode",
                 "usr": "c:@E@spine_spacing_mode"
               }
             ],
@@ -12517,7 +12517,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "spine_spacing_mode",
-                    "printedName": "SpineCppLiteFramework.spine_spacing_mode",
+                    "printedName": "SpineCppLite.spine_spacing_mode",
                     "usr": "c:@E@spine_spacing_mode"
                   }
                 ],
@@ -12544,7 +12544,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "spine_spacing_mode",
-                    "printedName": "SpineCppLiteFramework.spine_spacing_mode",
+                    "printedName": "SpineCppLite.spine_spacing_mode",
                     "usr": "c:@E@spine_spacing_mode"
                   }
                 ],
@@ -12589,7 +12589,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "spine_rotate_mode",
-                "printedName": "SpineCppLiteFramework.spine_rotate_mode",
+                "printedName": "SpineCppLite.spine_rotate_mode",
                 "usr": "c:@E@spine_rotate_mode"
               }
             ],
@@ -12611,7 +12611,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "spine_rotate_mode",
-                    "printedName": "SpineCppLiteFramework.spine_rotate_mode",
+                    "printedName": "SpineCppLite.spine_rotate_mode",
                     "usr": "c:@E@spine_rotate_mode"
                   }
                 ],
@@ -12638,7 +12638,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "spine_rotate_mode",
-                    "printedName": "SpineCppLiteFramework.spine_rotate_mode",
+                    "printedName": "SpineCppLite.spine_rotate_mode",
                     "usr": "c:@E@spine_rotate_mode"
                   }
                 ],
@@ -13347,12 +13347,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_animation_state_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_animation_state_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_animation_state_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_animation_state_data_wrapper",
+                    "printedName": "SpineCppLite.spine_animation_state_data_wrapper",
                     "usr": "c:@S@spine_animation_state_data_wrapper"
                   }
                 ],
@@ -13380,12 +13380,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_animation_state_data_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_animation_state_data_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_animation_state_data_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_animation_state_data_wrapper",
+                        "printedName": "SpineCppLite.spine_animation_state_data_wrapper",
                         "usr": "c:@S@spine_animation_state_data_wrapper"
                       }
                     ],
@@ -13419,12 +13419,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_animation_state_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_animation_state_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_animation_state_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_animation_state_data_wrapper",
+                    "printedName": "SpineCppLite.spine_animation_state_data_wrapper",
                     "usr": "c:@S@spine_animation_state_data_wrapper"
                   }
                 ],
@@ -13895,12 +13895,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skeleton_data_result_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skeleton_data_result_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_skeleton_data_result_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_skeleton_data_result_wrapper",
+                    "printedName": "SpineCppLite.spine_skeleton_data_result_wrapper",
                     "usr": "c:@S@spine_skeleton_data_result_wrapper"
                   }
                 ],
@@ -13928,12 +13928,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skeleton_data_result_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skeleton_data_result_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_skeleton_data_result_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_skeleton_data_result_wrapper",
+                        "printedName": "SpineCppLite.spine_skeleton_data_result_wrapper",
                         "usr": "c:@S@spine_skeleton_data_result_wrapper"
                       }
                     ],
@@ -14066,12 +14066,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skeleton_data_result_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skeleton_data_result_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_skeleton_data_result_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_skeleton_data_result_wrapper",
+                    "printedName": "SpineCppLite.spine_skeleton_data_result_wrapper",
                     "usr": "c:@S@spine_skeleton_data_result_wrapper"
                   }
                 ],
@@ -14326,12 +14326,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_clipping_attachment_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_clipping_attachment_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_clipping_attachment_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_clipping_attachment_wrapper",
+                    "printedName": "SpineCppLite.spine_clipping_attachment_wrapper",
                     "usr": "c:@S@spine_clipping_attachment_wrapper"
                   }
                 ],
@@ -14359,12 +14359,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_clipping_attachment_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_clipping_attachment_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_clipping_attachment_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_clipping_attachment_wrapper",
+                        "printedName": "SpineCppLite.spine_clipping_attachment_wrapper",
                         "usr": "c:@S@spine_clipping_attachment_wrapper"
                       }
                     ],
@@ -14398,12 +14398,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_clipping_attachment_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_clipping_attachment_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_clipping_attachment_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_clipping_attachment_wrapper",
+                    "printedName": "SpineCppLite.spine_clipping_attachment_wrapper",
                     "usr": "c:@S@spine_clipping_attachment_wrapper"
                   }
                 ],
@@ -14738,12 +14738,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_ik_constraint_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_ik_constraint_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_ik_constraint_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_ik_constraint_data_wrapper",
+                    "printedName": "SpineCppLite.spine_ik_constraint_data_wrapper",
                     "usr": "c:@S@spine_ik_constraint_data_wrapper"
                   }
                 ],
@@ -14771,12 +14771,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_ik_constraint_data_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_ik_constraint_data_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_ik_constraint_data_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_ik_constraint_data_wrapper",
+                        "printedName": "SpineCppLite.spine_ik_constraint_data_wrapper",
                         "usr": "c:@S@spine_ik_constraint_data_wrapper"
                       }
                     ],
@@ -14810,12 +14810,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_ik_constraint_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_ik_constraint_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_ik_constraint_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_ik_constraint_data_wrapper",
+                    "printedName": "SpineCppLite.spine_ik_constraint_data_wrapper",
                     "usr": "c:@S@spine_ik_constraint_data_wrapper"
                   }
                 ],
@@ -15660,12 +15660,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_physics_constraint_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_physics_constraint_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_physics_constraint_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_physics_constraint_wrapper",
+                    "printedName": "SpineCppLite.spine_physics_constraint_wrapper",
                     "usr": "c:@S@spine_physics_constraint_wrapper"
                   }
                 ],
@@ -15693,12 +15693,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_physics_constraint_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_physics_constraint_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_physics_constraint_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_physics_constraint_wrapper",
+                        "printedName": "SpineCppLite.spine_physics_constraint_wrapper",
                         "usr": "c:@S@spine_physics_constraint_wrapper"
                       }
                     ],
@@ -15732,12 +15732,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_physics_constraint_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_physics_constraint_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_physics_constraint_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_physics_constraint_wrapper",
+                    "printedName": "SpineCppLite.spine_physics_constraint_wrapper",
                     "usr": "c:@S@spine_physics_constraint_wrapper"
                   }
                 ],
@@ -18233,7 +18233,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "spine_physics",
-                "printedName": "SpineCppLiteFramework.spine_physics",
+                "printedName": "SpineCppLite.spine_physics",
                 "usr": "c:@E@spine_physics"
               }
             ],
@@ -18430,12 +18430,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_region_attachment_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_region_attachment_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_region_attachment_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_region_attachment_wrapper",
+                    "printedName": "SpineCppLite.spine_region_attachment_wrapper",
                     "usr": "c:@S@spine_region_attachment_wrapper"
                   }
                 ],
@@ -18463,12 +18463,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_region_attachment_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_region_attachment_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_region_attachment_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_region_attachment_wrapper",
+                        "printedName": "SpineCppLite.spine_region_attachment_wrapper",
                         "usr": "c:@S@spine_region_attachment_wrapper"
                       }
                     ],
@@ -18502,12 +18502,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_region_attachment_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_region_attachment_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_region_attachment_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_region_attachment_wrapper",
+                    "printedName": "SpineCppLite.spine_region_attachment_wrapper",
                     "usr": "c:@S@spine_region_attachment_wrapper"
                   }
                 ],
@@ -19742,12 +19742,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_vertex_attachment_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_vertex_attachment_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_vertex_attachment_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_vertex_attachment_wrapper",
+                    "printedName": "SpineCppLite.spine_vertex_attachment_wrapper",
                     "usr": "c:@S@spine_vertex_attachment_wrapper"
                   }
                 ],
@@ -19775,12 +19775,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_vertex_attachment_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_vertex_attachment_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_vertex_attachment_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_vertex_attachment_wrapper",
+                        "printedName": "SpineCppLite.spine_vertex_attachment_wrapper",
                         "usr": "c:@S@spine_vertex_attachment_wrapper"
                       }
                     ],
@@ -19814,12 +19814,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_vertex_attachment_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_vertex_attachment_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_vertex_attachment_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_vertex_attachment_wrapper",
+                    "printedName": "SpineCppLite.spine_vertex_attachment_wrapper",
                     "usr": "c:@S@spine_vertex_attachment_wrapper"
                   }
                 ],
@@ -20260,12 +20260,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skeleton_drawable_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skeleton_drawable_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_skeleton_drawable_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_skeleton_drawable_wrapper",
+                    "printedName": "SpineCppLite.spine_skeleton_drawable_wrapper",
                     "usr": "c:@S@spine_skeleton_drawable_wrapper"
                   }
                 ],
@@ -20293,12 +20293,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skeleton_drawable_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skeleton_drawable_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_skeleton_drawable_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_skeleton_drawable_wrapper",
+                        "printedName": "SpineCppLite.spine_skeleton_drawable_wrapper",
                         "usr": "c:@S@spine_skeleton_drawable_wrapper"
                       }
                     ],
@@ -20431,12 +20431,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skeleton_drawable_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skeleton_drawable_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_skeleton_drawable_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_skeleton_drawable_wrapper",
+                    "printedName": "SpineCppLite.spine_skeleton_drawable_wrapper",
                     "usr": "c:@S@spine_skeleton_drawable_wrapper"
                   }
                 ],
@@ -20798,12 +20798,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_point_attachment_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_point_attachment_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_point_attachment_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_point_attachment_wrapper",
+                    "printedName": "SpineCppLite.spine_point_attachment_wrapper",
                     "usr": "c:@S@spine_point_attachment_wrapper"
                   }
                 ],
@@ -20831,12 +20831,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_point_attachment_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_point_attachment_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_point_attachment_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_point_attachment_wrapper",
+                        "printedName": "SpineCppLite.spine_point_attachment_wrapper",
                         "usr": "c:@S@spine_point_attachment_wrapper"
                       }
                     ],
@@ -20870,12 +20870,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_point_attachment_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_point_attachment_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_point_attachment_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_point_attachment_wrapper",
+                    "printedName": "SpineCppLite.spine_point_attachment_wrapper",
                     "usr": "c:@S@spine_point_attachment_wrapper"
                   }
                 ],
@@ -21434,12 +21434,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_mesh_attachment_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_mesh_attachment_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_mesh_attachment_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_mesh_attachment_wrapper",
+                    "printedName": "SpineCppLite.spine_mesh_attachment_wrapper",
                     "usr": "c:@S@spine_mesh_attachment_wrapper"
                   }
                 ],
@@ -21467,12 +21467,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_mesh_attachment_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_mesh_attachment_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_mesh_attachment_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_mesh_attachment_wrapper",
+                        "printedName": "SpineCppLite.spine_mesh_attachment_wrapper",
                         "usr": "c:@S@spine_mesh_attachment_wrapper"
                       }
                     ],
@@ -21506,12 +21506,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_mesh_attachment_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_mesh_attachment_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_mesh_attachment_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_mesh_attachment_wrapper",
+                    "printedName": "SpineCppLite.spine_mesh_attachment_wrapper",
                     "usr": "c:@S@spine_mesh_attachment_wrapper"
                   }
                 ],
@@ -22596,12 +22596,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_path_attachment_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_path_attachment_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_path_attachment_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_path_attachment_wrapper",
+                    "printedName": "SpineCppLite.spine_path_attachment_wrapper",
                     "usr": "c:@S@spine_path_attachment_wrapper"
                   }
                 ],
@@ -22629,12 +22629,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_path_attachment_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_path_attachment_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_path_attachment_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_path_attachment_wrapper",
+                        "printedName": "SpineCppLite.spine_path_attachment_wrapper",
                         "usr": "c:@S@spine_path_attachment_wrapper"
                       }
                     ],
@@ -22668,12 +22668,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_path_attachment_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_path_attachment_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_path_attachment_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_path_attachment_wrapper",
+                    "printedName": "SpineCppLite.spine_path_attachment_wrapper",
                     "usr": "c:@S@spine_path_attachment_wrapper"
                   }
                 ],
@@ -23154,12 +23154,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_constraint_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_constraint_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_constraint_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_constraint_data_wrapper",
+                    "printedName": "SpineCppLite.spine_constraint_data_wrapper",
                     "usr": "c:@S@spine_constraint_data_wrapper"
                   }
                 ],
@@ -23187,12 +23187,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_constraint_data_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_constraint_data_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_constraint_data_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_constraint_data_wrapper",
+                        "printedName": "SpineCppLite.spine_constraint_data_wrapper",
                         "usr": "c:@S@spine_constraint_data_wrapper"
                       }
                     ],
@@ -23226,12 +23226,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_constraint_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_constraint_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_constraint_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_constraint_data_wrapper",
+                    "printedName": "SpineCppLite.spine_constraint_data_wrapper",
                     "usr": "c:@S@spine_constraint_data_wrapper"
                   }
                 ],
@@ -23256,7 +23256,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "spine_constraint_type",
-                "printedName": "SpineCppLiteFramework.spine_constraint_type",
+                "printedName": "SpineCppLite.spine_constraint_type",
                 "usr": "c:@E@spine_constraint_type"
               }
             ],
@@ -23278,7 +23278,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "spine_constraint_type",
-                    "printedName": "SpineCppLiteFramework.spine_constraint_type",
+                    "printedName": "SpineCppLite.spine_constraint_type",
                     "usr": "c:@E@spine_constraint_type"
                   }
                 ],
@@ -23652,12 +23652,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_path_constraint_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_path_constraint_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_path_constraint_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_path_constraint_wrapper",
+                    "printedName": "SpineCppLite.spine_path_constraint_wrapper",
                     "usr": "c:@S@spine_path_constraint_wrapper"
                   }
                 ],
@@ -23685,12 +23685,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_path_constraint_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_path_constraint_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_path_constraint_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_path_constraint_wrapper",
+                        "printedName": "SpineCppLite.spine_path_constraint_wrapper",
                         "usr": "c:@S@spine_path_constraint_wrapper"
                       }
                     ],
@@ -23724,12 +23724,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_path_constraint_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_path_constraint_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_path_constraint_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_path_constraint_wrapper",
+                    "printedName": "SpineCppLite.spine_path_constraint_wrapper",
                     "usr": "c:@S@spine_path_constraint_wrapper"
                   }
                 ],
@@ -24688,12 +24688,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_animation_state_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_animation_state_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_animation_state_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_animation_state_wrapper",
+                    "printedName": "SpineCppLite.spine_animation_state_wrapper",
                     "usr": "c:@S@spine_animation_state_wrapper"
                   }
                 ],
@@ -24721,12 +24721,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_animation_state_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_animation_state_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_animation_state_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_animation_state_wrapper",
+                        "printedName": "SpineCppLite.spine_animation_state_wrapper",
                         "usr": "c:@S@spine_animation_state_wrapper"
                       }
                     ],
@@ -24760,12 +24760,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_animation_state_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_animation_state_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_animation_state_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_animation_state_wrapper",
+                    "printedName": "SpineCppLite.spine_animation_state_wrapper",
                     "usr": "c:@S@spine_animation_state_wrapper"
                   }
                 ],
@@ -25476,12 +25476,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_texture_region_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_texture_region_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_texture_region_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_texture_region_wrapper",
+                    "printedName": "SpineCppLite.spine_texture_region_wrapper",
                     "usr": "c:@S@spine_texture_region_wrapper"
                   }
                 ],
@@ -25509,12 +25509,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_texture_region_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_texture_region_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_texture_region_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_texture_region_wrapper",
+                        "printedName": "SpineCppLite.spine_texture_region_wrapper",
                         "usr": "c:@S@spine_texture_region_wrapper"
                       }
                     ],
@@ -25548,12 +25548,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_texture_region_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_texture_region_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_texture_region_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_texture_region_wrapper",
+                    "printedName": "SpineCppLite.spine_texture_region_wrapper",
                     "usr": "c:@S@spine_texture_region_wrapper"
                   }
                 ],
@@ -26806,12 +26806,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_render_command_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_render_command_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_render_command_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_render_command_wrapper",
+                    "printedName": "SpineCppLite.spine_render_command_wrapper",
                     "usr": "c:@S@spine_render_command_wrapper"
                   }
                 ],
@@ -26839,12 +26839,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_render_command_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_render_command_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_render_command_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_render_command_wrapper",
+                        "printedName": "SpineCppLite.spine_render_command_wrapper",
                         "usr": "c:@S@spine_render_command_wrapper"
                       }
                     ],
@@ -26878,12 +26878,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_render_command_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_render_command_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_render_command_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_render_command_wrapper",
+                    "printedName": "SpineCppLite.spine_render_command_wrapper",
                     "usr": "c:@S@spine_render_command_wrapper"
                   }
                 ],
@@ -27016,7 +27016,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "spine_blend_mode",
-                "printedName": "SpineCppLiteFramework.spine_blend_mode",
+                "printedName": "SpineCppLite.spine_blend_mode",
                 "usr": "c:@E@spine_blend_mode"
               }
             ],
@@ -27038,7 +27038,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "spine_blend_mode",
-                    "printedName": "SpineCppLiteFramework.spine_blend_mode",
+                    "printedName": "SpineCppLite.spine_blend_mode",
                     "usr": "c:@E@spine_blend_mode"
                   }
                 ],
@@ -27396,12 +27396,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skeleton_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skeleton_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_skeleton_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_skeleton_data_wrapper",
+                    "printedName": "SpineCppLite.spine_skeleton_data_wrapper",
                     "usr": "c:@S@spine_skeleton_data_wrapper"
                   }
                 ],
@@ -27429,12 +27429,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skeleton_data_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skeleton_data_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_skeleton_data_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_skeleton_data_wrapper",
+                        "printedName": "SpineCppLite.spine_skeleton_data_wrapper",
                         "usr": "c:@S@spine_skeleton_data_wrapper"
                       }
                     ],
@@ -27567,12 +27567,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skeleton_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skeleton_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_skeleton_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_skeleton_data_wrapper",
+                    "printedName": "SpineCppLite.spine_skeleton_data_wrapper",
                     "usr": "c:@S@spine_skeleton_data_wrapper"
                   }
                 ],
@@ -29722,12 +29722,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_ik_constraint_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_ik_constraint_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_ik_constraint_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_ik_constraint_wrapper",
+                    "printedName": "SpineCppLite.spine_ik_constraint_wrapper",
                     "usr": "c:@S@spine_ik_constraint_wrapper"
                   }
                 ],
@@ -29755,12 +29755,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_ik_constraint_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_ik_constraint_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_ik_constraint_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_ik_constraint_wrapper",
+                        "printedName": "SpineCppLite.spine_ik_constraint_wrapper",
                         "usr": "c:@S@spine_ik_constraint_wrapper"
                       }
                     ],
@@ -29794,12 +29794,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_ik_constraint_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_ik_constraint_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_ik_constraint_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_ik_constraint_wrapper",
+                    "printedName": "SpineCppLite.spine_ik_constraint_wrapper",
                     "usr": "c:@S@spine_ik_constraint_wrapper"
                   }
                 ],
@@ -30758,12 +30758,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skin_entries_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skin_entries_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_skin_entries_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_skin_entries_wrapper",
+                    "printedName": "SpineCppLite.spine_skin_entries_wrapper",
                     "usr": "c:@S@spine_skin_entries_wrapper"
                   }
                 ],
@@ -30791,12 +30791,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skin_entries_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skin_entries_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_skin_entries_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_skin_entries_wrapper",
+                        "printedName": "SpineCppLite.spine_skin_entries_wrapper",
                         "usr": "c:@S@spine_skin_entries_wrapper"
                       }
                     ],
@@ -30929,12 +30929,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skin_entries_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skin_entries_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_skin_entries_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_skin_entries_wrapper",
+                    "printedName": "SpineCppLite.spine_skin_entries_wrapper",
                     "usr": "c:@S@spine_skin_entries_wrapper"
                   }
                 ],
@@ -31111,12 +31111,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_track_entry_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_track_entry_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_track_entry_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_track_entry_wrapper",
+                    "printedName": "SpineCppLite.spine_track_entry_wrapper",
                     "usr": "c:@S@spine_track_entry_wrapper"
                   }
                 ],
@@ -31144,12 +31144,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_track_entry_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_track_entry_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_track_entry_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_track_entry_wrapper",
+                        "printedName": "SpineCppLite.spine_track_entry_wrapper",
                         "usr": "c:@S@spine_track_entry_wrapper"
                       }
                     ],
@@ -31183,12 +31183,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_track_entry_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_track_entry_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_track_entry_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_track_entry_wrapper",
+                    "printedName": "SpineCppLite.spine_track_entry_wrapper",
                     "usr": "c:@S@spine_track_entry_wrapper"
                   }
                 ],
@@ -33413,7 +33413,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "spine_mix_blend",
-                "printedName": "SpineCppLiteFramework.spine_mix_blend",
+                "printedName": "SpineCppLite.spine_mix_blend",
                 "usr": "c:@E@spine_mix_blend"
               }
             ],
@@ -33435,7 +33435,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "spine_mix_blend",
-                    "printedName": "SpineCppLiteFramework.spine_mix_blend",
+                    "printedName": "SpineCppLite.spine_mix_blend",
                     "usr": "c:@E@spine_mix_blend"
                   }
                 ],
@@ -33462,7 +33462,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "spine_mix_blend",
-                    "printedName": "SpineCppLiteFramework.spine_mix_blend",
+                    "printedName": "SpineCppLite.spine_mix_blend",
                     "usr": "c:@E@spine_mix_blend"
                   }
                 ],
@@ -33653,12 +33653,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_attachment_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_attachment_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_attachment_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_attachment_wrapper",
+                    "printedName": "SpineCppLite.spine_attachment_wrapper",
                     "usr": "c:@S@spine_attachment_wrapper"
                   }
                 ],
@@ -33686,12 +33686,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_attachment_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_attachment_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_attachment_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_attachment_wrapper",
+                        "printedName": "SpineCppLite.spine_attachment_wrapper",
                         "usr": "c:@S@spine_attachment_wrapper"
                       }
                     ],
@@ -33824,12 +33824,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_attachment_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_attachment_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_attachment_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_attachment_wrapper",
+                    "printedName": "SpineCppLite.spine_attachment_wrapper",
                     "usr": "c:@S@spine_attachment_wrapper"
                   }
                 ],
@@ -33916,7 +33916,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "spine_attachment_type",
-                "printedName": "SpineCppLiteFramework.spine_attachment_type",
+                "printedName": "SpineCppLite.spine_attachment_type",
                 "usr": "c:@E@spine_attachment_type"
               }
             ],
@@ -33938,7 +33938,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "spine_attachment_type",
-                    "printedName": "SpineCppLiteFramework.spine_attachment_type",
+                    "printedName": "SpineCppLite.spine_attachment_type",
                     "usr": "c:@E@spine_attachment_type"
                   }
                 ],
@@ -34084,12 +34084,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_constraint_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_constraint_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_constraint_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_constraint_wrapper",
+                    "printedName": "SpineCppLite.spine_constraint_wrapper",
                     "usr": "c:@S@spine_constraint_wrapper"
                   }
                 ],
@@ -34117,12 +34117,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_constraint_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_constraint_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_constraint_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_constraint_wrapper",
+                        "printedName": "SpineCppLite.spine_constraint_wrapper",
                         "usr": "c:@S@spine_constraint_wrapper"
                       }
                     ],
@@ -34156,12 +34156,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_constraint_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_constraint_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_constraint_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_constraint_wrapper",
+                    "printedName": "SpineCppLite.spine_constraint_wrapper",
                     "usr": "c:@S@spine_constraint_wrapper"
                   }
                 ],
@@ -34286,12 +34286,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_event_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_event_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_event_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_event_data_wrapper",
+                    "printedName": "SpineCppLite.spine_event_data_wrapper",
                     "usr": "c:@S@spine_event_data_wrapper"
                   }
                 ],
@@ -34319,12 +34319,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_event_data_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_event_data_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_event_data_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_event_data_wrapper",
+                        "printedName": "SpineCppLite.spine_event_data_wrapper",
                         "usr": "c:@S@spine_event_data_wrapper"
                       }
                     ],
@@ -34358,12 +34358,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_event_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_event_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_event_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_event_data_wrapper",
+                    "printedName": "SpineCppLite.spine_event_data_wrapper",
                     "usr": "c:@S@spine_event_data_wrapper"
                   }
                 ],
@@ -35106,12 +35106,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skin_entry_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skin_entry_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_skin_entry_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_skin_entry_wrapper",
+                    "printedName": "SpineCppLite.spine_skin_entry_wrapper",
                     "usr": "c:@S@spine_skin_entry_wrapper"
                   }
                 ],
@@ -35139,12 +35139,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skin_entry_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skin_entry_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_skin_entry_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_skin_entry_wrapper",
+                        "printedName": "SpineCppLite.spine_skin_entry_wrapper",
                         "usr": "c:@S@spine_skin_entry_wrapper"
                       }
                     ],
@@ -35178,12 +35178,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skin_entry_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skin_entry_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_skin_entry_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_skin_entry_wrapper",
+                    "printedName": "SpineCppLite.spine_skin_entry_wrapper",
                     "usr": "c:@S@spine_skin_entry_wrapper"
                   }
                 ],
@@ -35462,12 +35462,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_bone_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_bone_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_bone_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_bone_data_wrapper",
+                    "printedName": "SpineCppLite.spine_bone_data_wrapper",
                     "usr": "c:@S@spine_bone_data_wrapper"
                   }
                 ],
@@ -35495,12 +35495,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_bone_data_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_bone_data_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_bone_data_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_bone_data_wrapper",
+                        "printedName": "SpineCppLite.spine_bone_data_wrapper",
                         "usr": "c:@S@spine_bone_data_wrapper"
                       }
                     ],
@@ -35534,12 +35534,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_bone_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_bone_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_bone_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_bone_data_wrapper",
+                    "printedName": "SpineCppLite.spine_bone_data_wrapper",
                     "usr": "c:@S@spine_bone_data_wrapper"
                   }
                 ],
@@ -36532,7 +36532,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "spine_inherit",
-                "printedName": "SpineCppLiteFramework.spine_inherit",
+                "printedName": "SpineCppLite.spine_inherit",
                 "usr": "c:@E@spine_inherit"
               }
             ],
@@ -36554,7 +36554,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "spine_inherit",
-                    "printedName": "SpineCppLiteFramework.spine_inherit",
+                    "printedName": "SpineCppLite.spine_inherit",
                     "usr": "c:@E@spine_inherit"
                   }
                 ],
@@ -36581,7 +36581,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "spine_inherit",
-                    "printedName": "SpineCppLiteFramework.spine_inherit",
+                    "printedName": "SpineCppLite.spine_inherit",
                     "usr": "c:@E@spine_inherit"
                   }
                 ],
@@ -36960,12 +36960,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_slot_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_slot_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_slot_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_slot_data_wrapper",
+                    "printedName": "SpineCppLite.spine_slot_data_wrapper",
                     "usr": "c:@S@spine_slot_data_wrapper"
                   }
                 ],
@@ -36993,12 +36993,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_slot_data_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_slot_data_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_slot_data_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_slot_data_wrapper",
+                        "printedName": "SpineCppLite.spine_slot_data_wrapper",
                         "usr": "c:@S@spine_slot_data_wrapper"
                       }
                     ],
@@ -37032,12 +37032,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_slot_data_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_slot_data_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_slot_data_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_slot_data_wrapper",
+                    "printedName": "SpineCppLite.spine_slot_data_wrapper",
                     "usr": "c:@S@spine_slot_data_wrapper"
                   }
                 ],
@@ -37520,7 +37520,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "spine_blend_mode",
-                "printedName": "SpineCppLiteFramework.spine_blend_mode",
+                "printedName": "SpineCppLite.spine_blend_mode",
                 "usr": "c:@E@spine_blend_mode"
               }
             ],
@@ -37542,7 +37542,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "spine_blend_mode",
-                    "printedName": "SpineCppLiteFramework.spine_blend_mode",
+                    "printedName": "SpineCppLite.spine_blend_mode",
                     "usr": "c:@E@spine_blend_mode"
                   }
                 ],
@@ -37569,7 +37569,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "spine_blend_mode",
-                    "printedName": "SpineCppLiteFramework.spine_blend_mode",
+                    "printedName": "SpineCppLite.spine_blend_mode",
                     "usr": "c:@E@spine_blend_mode"
                   }
                 ],
@@ -37900,12 +37900,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_animation_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_animation_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_animation_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_animation_wrapper",
+                    "printedName": "SpineCppLite.spine_animation_wrapper",
                     "usr": "c:@S@spine_animation_wrapper"
                   }
                 ],
@@ -37933,12 +37933,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_animation_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_animation_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_animation_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_animation_wrapper",
+                        "printedName": "SpineCppLite.spine_animation_wrapper",
                         "usr": "c:@S@spine_animation_wrapper"
                       }
                     ],
@@ -37972,12 +37972,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_animation_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_animation_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_animation_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_animation_wrapper",
+                    "printedName": "SpineCppLite.spine_animation_wrapper",
                     "usr": "c:@S@spine_animation_wrapper"
                   }
                 ],
@@ -38210,12 +38210,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skeleton_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skeleton_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_skeleton_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_skeleton_wrapper",
+                    "printedName": "SpineCppLite.spine_skeleton_wrapper",
                     "usr": "c:@S@spine_skeleton_wrapper"
                   }
                 ],
@@ -38243,12 +38243,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skeleton_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skeleton_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_skeleton_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_skeleton_wrapper",
+                        "printedName": "SpineCppLite.spine_skeleton_wrapper",
                         "usr": "c:@S@spine_skeleton_wrapper"
                       }
                     ],
@@ -38282,12 +38282,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skeleton_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skeleton_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_skeleton_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_skeleton_wrapper",
+                    "printedName": "SpineCppLite.spine_skeleton_wrapper",
                     "usr": "c:@S@spine_skeleton_wrapper"
                   }
                 ],
@@ -39577,7 +39577,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "spine_physics",
-                "printedName": "SpineCppLiteFramework.spine_physics",
+                "printedName": "SpineCppLite.spine_physics",
                 "usr": "c:@E@spine_physics"
               }
             ],
@@ -39605,7 +39605,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "spine_physics",
-                "printedName": "SpineCppLiteFramework.spine_physics",
+                "printedName": "SpineCppLite.spine_physics",
                 "usr": "c:@E@spine_physics"
               },
               {
@@ -40416,12 +40416,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_sequence_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_sequence_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_sequence_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_sequence_wrapper",
+                    "printedName": "SpineCppLite.spine_sequence_wrapper",
                     "usr": "c:@S@spine_sequence_wrapper"
                   }
                 ],
@@ -40449,12 +40449,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_sequence_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_sequence_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_sequence_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_sequence_wrapper",
+                        "printedName": "SpineCppLite.spine_sequence_wrapper",
                         "usr": "c:@S@spine_sequence_wrapper"
                       }
                     ],
@@ -40488,12 +40488,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_sequence_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_sequence_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_sequence_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_sequence_wrapper",
+                    "printedName": "SpineCppLite.spine_sequence_wrapper",
                     "usr": "c:@S@spine_sequence_wrapper"
                   }
                 ],
@@ -41142,12 +41142,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_bounds_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_bounds_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_bounds_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_bounds_wrapper",
+                    "printedName": "SpineCppLite.spine_bounds_wrapper",
                     "usr": "c:@S@spine_bounds_wrapper"
                   }
                 ],
@@ -41175,12 +41175,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_bounds_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_bounds_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_bounds_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_bounds_wrapper",
+                        "printedName": "SpineCppLite.spine_bounds_wrapper",
                         "usr": "c:@S@spine_bounds_wrapper"
                       }
                     ],
@@ -41214,12 +41214,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_bounds_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_bounds_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_bounds_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_bounds_wrapper",
+                    "printedName": "SpineCppLite.spine_bounds_wrapper",
                     "usr": "c:@S@spine_bounds_wrapper"
                   }
                 ],
@@ -41528,12 +41528,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_vector_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_vector_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_vector_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_vector_wrapper",
+                    "printedName": "SpineCppLite.spine_vector_wrapper",
                     "usr": "c:@S@spine_vector_wrapper"
                   }
                 ],
@@ -41561,12 +41561,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_vector_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_vector_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_vector_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_vector_wrapper",
+                        "printedName": "SpineCppLite.spine_vector_wrapper",
                         "usr": "c:@S@spine_vector_wrapper"
                       }
                     ],
@@ -41600,12 +41600,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_vector_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_vector_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_vector_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_vector_wrapper",
+                    "printedName": "SpineCppLite.spine_vector_wrapper",
                     "usr": "c:@S@spine_vector_wrapper"
                   }
                 ],
@@ -41822,12 +41822,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_event_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_event_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_event_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_event_wrapper",
+                    "printedName": "SpineCppLite.spine_event_wrapper",
                     "usr": "c:@S@spine_event_wrapper"
                   }
                 ],
@@ -41855,12 +41855,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_event_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_event_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_event_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_event_wrapper",
+                        "printedName": "SpineCppLite.spine_event_wrapper",
                         "usr": "c:@S@spine_event_wrapper"
                       }
                     ],
@@ -41894,12 +41894,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_event_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_event_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_event_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_event_wrapper",
+                    "printedName": "SpineCppLite.spine_event_wrapper",
                     "usr": "c:@S@spine_event_wrapper"
                   }
                 ],
@@ -42610,12 +42610,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_atlas_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_atlas_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_atlas_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_atlas_wrapper",
+                    "printedName": "SpineCppLite.spine_atlas_wrapper",
                     "usr": "c:@S@spine_atlas_wrapper"
                   }
                 ],
@@ -42643,12 +42643,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_atlas_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_atlas_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_atlas_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_atlas_wrapper",
+                        "printedName": "SpineCppLite.spine_atlas_wrapper",
                         "usr": "c:@S@spine_atlas_wrapper"
                       }
                     ],
@@ -42781,12 +42781,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_atlas_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_atlas_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_atlas_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_atlas_wrapper",
+                    "printedName": "SpineCppLite.spine_atlas_wrapper",
                     "usr": "c:@S@spine_atlas_wrapper"
                   }
                 ],
@@ -43283,12 +43283,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_color_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_color_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_color_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_color_wrapper",
+                    "printedName": "SpineCppLite.spine_color_wrapper",
                     "usr": "c:@S@spine_color_wrapper"
                   }
                 ],
@@ -43316,12 +43316,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_color_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_color_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_color_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_color_wrapper",
+                        "printedName": "SpineCppLite.spine_color_wrapper",
                         "usr": "c:@S@spine_color_wrapper"
                       }
                     ],
@@ -43355,12 +43355,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_color_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_color_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_color_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_color_wrapper",
+                    "printedName": "SpineCppLite.spine_color_wrapper",
                     "usr": "c:@S@spine_color_wrapper"
                   }
                 ],
@@ -43669,12 +43669,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_bone_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_bone_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_bone_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_bone_wrapper",
+                    "printedName": "SpineCppLite.spine_bone_wrapper",
                     "usr": "c:@S@spine_bone_wrapper"
                   }
                 ],
@@ -43702,12 +43702,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_bone_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_bone_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_bone_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_bone_wrapper",
+                        "printedName": "SpineCppLite.spine_bone_wrapper",
                         "usr": "c:@S@spine_bone_wrapper"
                       }
                     ],
@@ -43741,12 +43741,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_bone_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_bone_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_bone_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_bone_wrapper",
+                    "printedName": "SpineCppLite.spine_bone_wrapper",
                     "usr": "c:@S@spine_bone_wrapper"
                   }
                 ],
@@ -46265,7 +46265,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "spine_inherit",
-                "printedName": "SpineCppLiteFramework.spine_inherit",
+                "printedName": "SpineCppLite.spine_inherit",
                 "usr": "c:@E@spine_inherit"
               }
             ],
@@ -46287,7 +46287,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "spine_inherit",
-                    "printedName": "SpineCppLiteFramework.spine_inherit",
+                    "printedName": "SpineCppLite.spine_inherit",
                     "usr": "c:@E@spine_inherit"
                   }
                 ],
@@ -46314,7 +46314,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "spine_inherit",
-                    "printedName": "SpineCppLiteFramework.spine_inherit",
+                    "printedName": "SpineCppLite.spine_inherit",
                     "usr": "c:@E@spine_inherit"
                   }
                 ],
@@ -46889,12 +46889,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_slot_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_slot_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_slot_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_slot_wrapper",
+                    "printedName": "SpineCppLite.spine_slot_wrapper",
                     "usr": "c:@S@spine_slot_wrapper"
                   }
                 ],
@@ -46922,12 +46922,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_slot_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_slot_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_slot_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_slot_wrapper",
+                        "printedName": "SpineCppLite.spine_slot_wrapper",
                         "usr": "c:@S@spine_slot_wrapper"
                       }
                     ],
@@ -46961,12 +46961,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_slot_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_slot_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_slot_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_slot_wrapper",
+                    "printedName": "SpineCppLite.spine_slot_wrapper",
                     "usr": "c:@S@spine_slot_wrapper"
                   }
                 ],
@@ -47671,12 +47671,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skin_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skin_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_skin_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_skin_wrapper",
+                    "printedName": "SpineCppLite.spine_skin_wrapper",
                     "usr": "c:@S@spine_skin_wrapper"
                   }
                 ],
@@ -47704,12 +47704,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skin_wrapper>",
+                    "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skin_wrapper>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "spine_skin_wrapper",
-                        "printedName": "SpineCppLiteFramework.spine_skin_wrapper",
+                        "printedName": "SpineCppLite.spine_skin_wrapper",
                         "usr": "c:@S@spine_skin_wrapper"
                       }
                     ],
@@ -47842,12 +47842,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<SpineCppLiteFramework.spine_skin_wrapper>",
+                "printedName": "Swift.UnsafeMutablePointer<SpineCppLite.spine_skin_wrapper>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "spine_skin_wrapper",
-                    "printedName": "SpineCppLiteFramework.spine_skin_wrapper",
+                    "printedName": "SpineCppLite.spine_skin_wrapper",
                     "usr": "c:@S@spine_skin_wrapper"
                   }
                 ],
@@ -50828,14 +50828,14 @@
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/SkeletonDrawableWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 2294,
+      "offset": 2285,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/SkeletonDrawableWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 1864,
+      "offset": 1855,
       "length": 23,
       "value": "\"Spine.SkeletonDrawableWrapper\""
     },
@@ -50891,462 +50891,462 @@
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/AnimationStateWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 564,
+      "offset": 555,
       "length": 21,
       "value": "\"Spine.AnimationStateWrapper\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Metal\/SpineRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1116,
+      "offset": 1107,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Metal\/SpineRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1119,
+      "offset": 1110,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Metal\/SpineRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1201,
+      "offset": 1192,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Metal\/SpineRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1204,
+      "offset": 1195,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Metal\/SpineRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1237,
+      "offset": 1228,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Metal\/SpineRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1240,
+      "offset": 1231,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Metal\/SpineRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1274,
+      "offset": 1265,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Metal\/SpineRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1277,
+      "offset": 1268,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Metal\/SpineRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1330,
+      "offset": 1321,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Metal\/SpineRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1370,
+      "offset": 1361,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Metal\/SpineRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1498,
+      "offset": 1489,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Metal\/SpineRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1543,
+      "offset": 1534,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Metal\/SpineRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1548,
+      "offset": 1539,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Metal\/SpineRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1741,
+      "offset": 1732,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Metal\/SpineRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 855,
+      "offset": 846,
       "length": 13,
       "value": "\"Spine.SpineRenderer\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 628,
+      "offset": 619,
       "length": 23,
       "value": "\"Spine.TransformConstraintData\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 4868,
+      "offset": 4859,
       "length": 21,
       "value": "\"Spine.BoundingBoxAttachment\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 5401,
+      "offset": 5392,
       "length": 21,
       "value": "\"Spine.PhysicsConstraintData\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 10902,
+      "offset": 10893,
       "length": 20,
       "value": "\"Spine.AnimationStateEvents\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 11773,
+      "offset": 11764,
       "length": 19,
       "value": "\"Spine.TransformConstraint\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 14459,
+      "offset": 14450,
       "length": 18,
       "value": "\"Spine.PathConstraintData\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 17334,
+      "offset": 17325,
       "length": 18,
       "value": "\"Spine.AnimationStateData\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "BooleanLiteral",
-      "offset": 18882,
+      "offset": 18873,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 18769,
+      "offset": 18760,
       "length": 18,
       "value": "\"Spine.SkeletonDataResult\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 19457,
+      "offset": 19448,
       "length": 18,
       "value": "\"Spine.ClippingAttachment\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 20225,
+      "offset": 20216,
       "length": 16,
       "value": "\"Spine.IkConstraintData\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 22362,
+      "offset": 22353,
       "length": 17,
       "value": "\"Spine.PhysicsConstraint\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 28824,
+      "offset": 28815,
       "length": 16,
       "value": "\"Spine.RegionAttachment\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 31759,
+      "offset": 31750,
       "length": 16,
       "value": "\"Spine.VertexAttachment\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "BooleanLiteral",
-      "offset": 33031,
+      "offset": 33022,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 32923,
+      "offset": 32914,
       "length": 16,
       "value": "\"Spine.SkeletonDrawable\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 33888,
+      "offset": 33879,
       "length": 15,
       "value": "\"Spine.PointAttachment\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 35351,
+      "offset": 35342,
       "length": 14,
       "value": "\"Spine.MeshAttachment\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 38165,
+      "offset": 38156,
       "length": 14,
       "value": "\"Spine.PathAttachment\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 39381,
+      "offset": 39372,
       "length": 14,
       "value": "\"Spine.ConstraintData\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 40319,
+      "offset": 40310,
       "length": 14,
       "value": "\"Spine.PathConstraint\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 42635,
+      "offset": 42626,
       "length": 14,
       "value": "\"Spine.AnimationState\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 45448,
+      "offset": 45439,
       "length": 13,
       "value": "\"Spine.TextureRegion\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 48230,
+      "offset": 48221,
       "length": 13,
       "value": "\"Spine.RenderCommand\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "BooleanLiteral",
-      "offset": 49128,
+      "offset": 49119,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 49028,
+      "offset": 49019,
       "length": 12,
       "value": "\"Spine.SkeletonData\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 55377,
+      "offset": 55368,
       "length": 12,
       "value": "\"Spine.IkConstraint\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "BooleanLiteral",
-      "offset": 57785,
+      "offset": 57776,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 57687,
+      "offset": 57678,
       "length": 11,
       "value": "\"Spine.SkinEntries\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 58245,
+      "offset": 58236,
       "length": 10,
       "value": "\"Spine.TrackEntry\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "BooleanLiteral",
-      "offset": 64184,
+      "offset": 64175,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 64089,
+      "offset": 64080,
       "length": 10,
       "value": "\"Spine.Attachment\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 64704,
+      "offset": 64695,
       "length": 10,
       "value": "\"Spine.Constraint\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 64937,
+      "offset": 64928,
       "length": 9,
       "value": "\"Spine.EventData\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 66501,
+      "offset": 66492,
       "length": 9,
       "value": "\"Spine.SkinEntry\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 67059,
+      "offset": 67050,
       "length": 8,
       "value": "\"Spine.BoneData\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 70067,
+      "offset": 70058,
       "length": 8,
       "value": "\"Spine.SlotData\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 71993,
+      "offset": 71984,
       "length": 9,
       "value": "\"Spine.Animation\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 72434,
+      "offset": 72425,
       "length": 8,
       "value": "\"Spine.Skeleton\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 79199,
+      "offset": 79190,
       "length": 8,
       "value": "\"Spine.Sequence\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 80803,
+      "offset": 80794,
       "length": 6,
       "value": "\"Spine.Bounds\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 81343,
+      "offset": 81334,
       "length": 6,
       "value": "\"Spine.Vector\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 81712,
+      "offset": 81703,
       "length": 5,
       "value": "\"Spine.Event\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "BooleanLiteral",
-      "offset": 83215,
+      "offset": 83206,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 83130,
+      "offset": 83121,
       "length": 5,
       "value": "\"Spine.Atlas\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 84014,
+      "offset": 84005,
       "length": 5,
       "value": "\"Spine.Color\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 84527,
+      "offset": 84518,
       "length": 4,
       "value": "\"Spine.Bone\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 91999,
+      "offset": 91990,
       "length": 4,
       "value": "\"Spine.Slot\""
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "BooleanLiteral",
-      "offset": 93674,
+      "offset": 93665,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hukaiwen\/Documents\/Spine\/Spine\/spine-ios\/Sources\/Spine\/Spine.Generated.swift",
       "kind": "StringLiteral",
-      "offset": 93591,
+      "offset": 93582,
       "length": 4,
       "value": "\"Spine.Skin\""
     },
