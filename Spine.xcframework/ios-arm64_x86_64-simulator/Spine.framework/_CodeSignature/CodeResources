@@ -6,23 +6,23 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		XC8isKuZahQ1r+acR3LBBSHnnAU=
+		BhGnrHc1hrYIv7oOVeWMz0048Dc=
 		</data>
 		<key>Modules/Spine.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		cl9VYTW6Skd2QXBu7v6ctVXFwho=
+		WKhabl/LVtc9HZjHQhpOXdnhzPQ=
 		</data>
 		<key>Modules/Spine.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		TueQRG1c2l0ljZVUglOd1QWCsvw=
+		Y966XU2oETliOc7Byk5syNTSCeo=
 		</data>
 		<key>Modules/Spine.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		CuDTyUlwlKz2hj/7I8YDbilTIvc=
+		1xY4jqExJB0s3cDttaZMp9uNTWM=
 		</data>
 		<key>Modules/Spine.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rGU/qsfwC55u2Ofj7pMw86dXEYs=
+		4bruVoJh/wGgbJBIklKvSX+MN9I=
 		</data>
 		<key>Modules/Spine.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/Spine.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rGU/qsfwC55u2Ofj7pMw86dXEYs=
+		4bruVoJh/wGgbJBIklKvSX+MN9I=
 		</data>
 		<key>Modules/Spine.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0ETBKxNgqsH+wSMV/mGNvIc7C6U=
+		tajNX1aaq02YwzFVT1LyuaK17XE=
 		</data>
 		<key>Modules/Spine.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		CuDTyUlwlKz2hj/7I8YDbilTIvc=
+		1xY4jqExJB0s3cDttaZMp9uNTWM=
 		</data>
 		<key>Modules/Spine.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		got4aXf931bP5iK6gt8sEpW13XU=
+		UBWUNCuWZux6xjoe6j7FaWkevjc=
 		</data>
 		<key>Modules/Spine.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/Spine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		got4aXf931bP5iK6gt8sEpW13XU=
+		UBWUNCuWZux6xjoe6j7FaWkevjc=
 		</data>
 		<key>Modules/Spine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FRV+WLYBEg/KBjPwhumAfAakeIk=
+		EhT/gVY1Rf6LlMhU5kuTv169n/w=
 		</data>
 		<key>Podfile</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Spine.podspec</key>
 		<data>
-		1uCe3rVirida1iSCRKeAB1YN3wc=
+		8Jt1ju6QG8ihebMB6mVicYNLL1E=
 		</data>
 		<key>default.metallib</key>
 		<data>
-		ZYJJBSiwjW/ZGSbLzf2lAgNzvvY=
+		yJxRngNvTYlZSvGO/aX8vKSfQmA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -75,28 +75,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k0xek6XxzNoBxFdPzGBx0qArtrFSb9z9BWzqqnCEDws=
+			1PSZ9u3VMVsvmjDBBVXkQ6DSv5CTqUKE1HQYyiaQYws=
 			</data>
 		</dict>
 		<key>Modules/Spine.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x85VaoBkaWo6JGAfD2tNeghnOCGSB4nbk4VuT/mIWE4=
+			fYdXTozMqcRu8mZhJZ1sroiyPqQmaHE/RdXW1zwAU0w=
 			</data>
 		</dict>
 		<key>Modules/Spine.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3d+fA7+OFnFvLxbWnQ73VEMXWT1K97Z1U1MJQ1pHEfg=
+			rtCuyXzDTUqTvkk7zDyNhyrnCoc6/24sD55/x5POh78=
 			</data>
 		</dict>
 		<key>Modules/Spine.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1+oiQnxoRFih3XSIDe3isys2rOFgKaMnD8E/Zod2cb8=
+			aKwj87Y0q9ibRRI3SNL9OQcfcc//K87UjZ6ysyG1/FE=
 			</data>
 		</dict>
 		<key>Modules/Spine.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -110,28 +110,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1+oiQnxoRFih3XSIDe3isys2rOFgKaMnD8E/Zod2cb8=
+			aKwj87Y0q9ibRRI3SNL9OQcfcc//K87UjZ6ysyG1/FE=
 			</data>
 		</dict>
 		<key>Modules/Spine.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1ztyTd2oRqy0Yyf49ucAaVdfrQBWmgUGdCVAp41oQ1s=
+			KSPcybcouJBddj5c0ZE1ceR9gI91OoogKPS3ftwpf3I=
 			</data>
 		</dict>
 		<key>Modules/Spine.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3d+fA7+OFnFvLxbWnQ73VEMXWT1K97Z1U1MJQ1pHEfg=
+			rtCuyXzDTUqTvkk7zDyNhyrnCoc6/24sD55/x5POh78=
 			</data>
 		</dict>
 		<key>Modules/Spine.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iWK6Cz1QQG2uKIT+5DcjlfBWJn1JL46MT5+WAYGFLmI=
+			roHRrniI/XdL/OzZFt1veB2+o4KBSqwKVYqCo9wQyJE=
 			</data>
 		</dict>
 		<key>Modules/Spine.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -145,14 +145,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iWK6Cz1QQG2uKIT+5DcjlfBWJn1JL46MT5+WAYGFLmI=
+			roHRrniI/XdL/OzZFt1veB2+o4KBSqwKVYqCo9wQyJE=
 			</data>
 		</dict>
 		<key>Modules/Spine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iKcD5VCTqBIIH9k/Ra5YAYAmn/9juxNLEfLD79cP1AM=
+			laNRcjSA7Y1rQ7bpb1DA64asW4ZwHTtGphaDmMGN5Lg=
 			</data>
 		</dict>
 		<key>Podfile</key>
@@ -166,14 +166,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gb4UOMSM5Spath/W3qw+o+hC3Moxb5UwUw0ch6wK4DA=
+			R5diBly1wqBErpgzsWaQ1Ujh5QJAg+Ec+9imBEGAJlE=
 			</data>
 		</dict>
 		<key>default.metallib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+1bqDKrNive1JePX5W8YEEIkaZEUGMxGc+1pOzCQEns=
+			KwCsfikvJhW75sThJJ4zthh3LvA6aNceu7N4aqFOICg=
 			</data>
 		</dict>
 	</dict>

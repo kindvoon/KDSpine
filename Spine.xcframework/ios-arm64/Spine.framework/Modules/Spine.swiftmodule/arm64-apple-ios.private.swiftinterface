@@ -6,7 +6,7 @@ import CoreGraphics
 import Foundation
 import MetalKit
 import QuartzCore
-import SpineCppLite
+import SpineCppLiteFramework
 import SpineShadersStructs
 import Swift
 import SwiftUI
@@ -157,16 +157,16 @@ public typealias AnimationStateListener = (_ type: Spine.EventType, _ entry: Spi
   @objc final public func setStateListener(_ stateListener: Spine.AnimationStateListener?)
   @objc deinit
 }
-public typealias BlendMode = SpineCppLite.spine_blend_mode
-public typealias MixBlend = SpineCppLite.spine_mix_blend
-public typealias EventType = SpineCppLite.spine_event_type
-public typealias AttachmentType = SpineCppLite.spine_attachment_type
-public typealias ConstraintType = SpineCppLite.spine_constraint_type
-public typealias Inherit = SpineCppLite.spine_inherit
-public typealias PositionMode = SpineCppLite.spine_position_mode
-public typealias SpacingMode = SpineCppLite.spine_spacing_mode
-public typealias RotateMode = SpineCppLite.spine_rotate_mode
-public typealias Physics = SpineCppLite.spine_physics
+public typealias BlendMode = SpineCppLiteFramework.spine_blend_mode
+public typealias MixBlend = SpineCppLiteFramework.spine_mix_blend
+public typealias EventType = SpineCppLiteFramework.spine_event_type
+public typealias AttachmentType = SpineCppLiteFramework.spine_attachment_type
+public typealias ConstraintType = SpineCppLiteFramework.spine_constraint_type
+public typealias Inherit = SpineCppLiteFramework.spine_inherit
+public typealias PositionMode = SpineCppLiteFramework.spine_position_mode
+public typealias SpacingMode = SpineCppLiteFramework.spine_spacing_mode
+public typealias RotateMode = SpineCppLiteFramework.spine_rotate_mode
+public typealias Physics = SpineCppLiteFramework.spine_physics
 @_hasMissingDesignatedInitializers @objc(SpineTransformConstraintData) @objcMembers final public class TransformConstraintData : ObjectiveC.NSObject {
   @objc final public var bones: [Spine.BoneData] {
     @objc get

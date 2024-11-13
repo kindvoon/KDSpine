@@ -23,7 +23,7 @@
 		686761D82C6EED6400EBFC30 /* SpineUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686761C72C6EED6400EBFC30 /* SpineUIView.swift */; };
 		686761D92C6EED6400EBFC30 /* SpineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686761C82C6EED6400EBFC30 /* SpineView.swift */; };
 		686761DB2C6EEE2600EBFC30 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 686761DA2C6EEE2600EBFC30 /* Podfile */; };
-		68A776312C730D35009060BE /* Spine.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 68A776302C730D35009060BE /* Spine.podspec */; };
+		6889A3F92CE37EAE002F568C /* KDSpine.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6889A3F82CE37EAE002F568C /* KDSpine.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +44,7 @@
 		686761C72C6EED6400EBFC30 /* SpineUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpineUIView.swift; sourceTree = "<group>"; };
 		686761C82C6EED6400EBFC30 /* SpineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpineView.swift; sourceTree = "<group>"; };
 		686761DA2C6EEE2600EBFC30 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		68A776302C730D35009060BE /* Spine.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Spine.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6889A3F82CE37EAE002F568C /* KDSpine.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KDSpine.podspec; sourceTree = "<group>"; };
 		AE6049CB4FE9695B0EC72077 /* Pods-Spine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spine.release.xcconfig"; path = "Target Support Files/Pods-Spine/Pods-Spine.release.xcconfig"; sourceTree = "<group>"; };
 		C40C4EE53BD705D405F56070 /* Pods_Spine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,8 +73,8 @@
 		686761A52C6EE93C00EBFC30 = {
 			isa = PBXGroup;
 			children = (
+				6889A3F82CE37EAE002F568C /* KDSpine.podspec */,
 				686761DA2C6EEE2600EBFC30 /* Podfile */,
-				68A776302C730D35009060BE /* Spine.podspec */,
 				686761B12C6EE93C00EBFC30 /* Spine */,
 				686761B02C6EE93C00EBFC30 /* Products */,
 				1923E426A83F4B0D2DC37025 /* Pods */,
@@ -228,8 +228,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68A776312C730D35009060BE /* Spine.podspec in Resources */,
 				686761DB2C6EEE2600EBFC30 /* Podfile in Resources */,
+				6889A3F92CE37EAE002F568C /* KDSpine.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
