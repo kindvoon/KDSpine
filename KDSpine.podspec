@@ -9,11 +9,12 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 Spine runtimes for iOS.
                        DESC
-  s.homepage         = 'https://esotericsoftware.com'
-  s.author           = { "Esoteric Software LLC  " => "https://esotericsoftware.com" }
+  s.homepage         = 'https://github.com/kindvoon/KDSpine.git'
+  s.author           = { "Esoteric Software LLC  " => "https://github.com/kindvoon/KDSpine.git" }
+
   s.license          = { :file => 'LICENSE' }
 
-  s.source           = { :git => 'https://github.com/esotericsoftware/spine-runtimes.git', :branch => '4.2' }
+  s.source           = { :git => 'https://github.com/kindvoon/KDSpine.git', :tag => s.version.to_s }
   #s.source_files     = 'Spine/spine-ios/Sources/Spine/**/*.{swift,metal}'
   s.platform         = :ios, '13.0'
 
